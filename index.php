@@ -82,7 +82,7 @@
                 </div>
             </div>
         </section>
-        <section class="divisions-area">
+        <!-- <section class="divisions-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -139,9 +139,71 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+        <section class="divisions-area">
+            <div class="container">
+                <div class="arrow-img-one">
+                    <img src="media/imgAll/bg/Home-Page/arrow-1.svg" alt="">
+                </div>
+                <div class="arrow-img-tow">
+                    <img src="media/imgAll/bg/Home-Page/arrow-2.svg" alt="">
+                </div>
+                <!-- Section Title -->
+                <div class="section-title text-center mb-5">
+                    <h2 class="title">Divisions</h2>
+                </div>
+                <div class="row g-4">
+                    <!-- 1 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <a href="#" class="division-card">
+                            <div class="division-img">
+                                <img src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
+                                <div class="overlay"></div>
+                                <h4>Tilawat Section</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <a href="#" class="division-card">
+                            <div class="division-img">
+                                <img src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
+                                <div class="overlay"></div>
+                                <h4>Islamic Song</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <a href="#" class="division-card">
+                            <div class="division-img">
+                                <img src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Recitation">
+                                <div class="overlay"></div>
+                                <h4>Recitation</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- 4 -->
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <a href="#" class="division-card">
+                            <div class="division-img">
+                                <img src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="Theatre">
+                                <div class="overlay"></div>
+                                <h4>Theatre Department</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="popular-presentation-area">
             <div class="container">
+                <div class="dot-img-one">
+                    <img src="media/imgAll/bg/Home-Page/dot-1.png" alt="">
+                </div>
+                <div class="dot-img-tow">
+                    <img src="media/imgAll/bg/Home-Page/dot-2.png" alt="">
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <a href="#">
@@ -237,6 +299,12 @@
         </section>
         <section class="activities-area">
             <div class="container">
+                <div class="arrow-img-three">
+                    <img src="media/imgAll/bg/Home-Page/arrow-3.webp" alt="">
+                </div>
+                <div class="arrow-img-four">
+                    <img src="media/imgAll/bg/Home-Page/arrow-4.webp" alt="">
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <a href="#">

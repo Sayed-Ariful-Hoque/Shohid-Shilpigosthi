@@ -16,7 +16,6 @@
 
                 </div>
             </div>
-
             <!-- Our Channels -->
             <div class="col-lg-3 col-md-6 d-flex justify-content-center">
                 <div class="footer-widget">
@@ -30,7 +29,6 @@
                     </ul>
                 </div>
             </div>
-
             <!-- Important Links -->
             <div class="col-lg-3 col-md-6 d-flex justify-content-center">
                 <div class="footer-widget">
