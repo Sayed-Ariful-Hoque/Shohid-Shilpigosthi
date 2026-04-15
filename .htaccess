@@ -1,0 +1,190 @@
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} !^www.cloudlivebd.com$
+#RewriteRule ^(.*)$ https://www.cloudlivebd.com/$1 [R=301,L]
+
+
+
+# -------------------------------------------
+RewriteRule ^themeDetails$ themeDetails.php
+RewriteRule ^themeDetails/$ themeDetails.php
+
+RewriteRule ^category$ category.php
+RewriteRule ^category/$ category.php
+
+RewriteRule ^subCategory$ subCategory.php
+RewriteRule ^subCategory/$ subCategory.php
+
+RewriteRule ^addToCard$ addToCard.php
+RewriteRule ^addToCard/$ addToCard.php
+
+RewriteRule ^checkOut$ checkOut.php
+RewriteRule ^checkOut/$ checkOut.php
+
+RewriteRule ^wishList$ wishList.php
+RewriteRule ^wishList/$ wishList.php
+
+RewriteRule ^signUp$ signUp.php
+RewriteRule ^signUp/$ signUp.php
+
+RewriteRule ^signIn$ signIn.php
+RewriteRule ^signIn/$ signIn.php
+
+# RewriteRule ^userDashBoard$ userDashBoard.php
+# RewriteRule ^userDashBoard/$ userDashBoard.php
+
+RewriteRule ^myAccount$ myAccount.php
+RewriteRule ^myAccount/$ myAccount.php
+
+RewriteRule ^profiles$ profiles.php
+RewriteRule ^profiles/$ profiles.php
+
+RewriteRule ^order$ order.php
+RewriteRule ^order/$ order.php
+
+RewriteRule ^changePassword$ changePassword.php
+RewriteRule ^changePassword/$ changePassword.php
+
+RewriteRule ^privacyPolicy$ privacyPolicy.php
+RewriteRule ^privacyPolicy/$ privacyPolicy.php
+
+RewriteRule ^contact$ contact.php
+RewriteRule ^contact/$ contact.php
+
+RewriteRule ^paymentMethods$ paymentMethods.php
+RewriteRule ^paymentMethods/$ paymentMethods.php
+
+RewriteRule ^myWishList$ myWishList.php
+RewriteRule ^myWishList/$ myWishList.php
+
+RewriteRule ^wallet$ wallet.php
+RewriteRule ^wallet/$ wallet.php
+
+RewriteRule ^search$ search.php
+RewriteRule ^search/$ search.php
+
+# -------------------------------------------
+
+# for category slug
+RewriteRule ^([\w]+)$ category.php?slug=$1
+RewriteRule ^([\w]+)/$ category.php?slug=$1
+
+RewriteRule ^([\w]+)-([\w]+)$ category.php?slug=$1-$2
+RewriteRule ^([\w]+)-([\w]+)/$ category.php?slug=$1-$2
+
+# for details with category slug
+RewriteRule ^([\w]+)/news/([\w]-)$ details.php?nssl=$3
+RewriteRule ^([\w]+)/news/([\w]-)/$ details.php?nssl=$3
+
+RewriteRule ^([\w]+)-([\w]+)/news/([\w]-)$ details.php?nssl=$4
+RewriteRule ^([\w]+)-([\w]+)/news/([\w]-)/$ details.php?nssl=$4
+
+# for sub category slug
+RewriteRule ^([\w]+)/([\w]+)$ subCategory.php?cslug=$1&slug=$2
+RewriteRule ^([\w]+)/([\w]+)/$ subCategory.php?cslug=$1&slug=$2
+
+RewriteRule ^([\w]+)/([\w]+)-([\w]+)$ subCategory.php?cslug=$1&slug=$2-$3
+RewriteRule ^([\w]+)/([\w]+)-([\w]+)/$ subCategory.php?cslug=$1&slug=$2-$3
+
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)$ subCategory.php?cslug=$1-$2&slug=$3
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)/$ subCategory.php?cslug=$1-$2&slug=$3
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)$ subCategory.php?cslug=$1-$2&slug=$3-$4
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/$ subCategory.php?cslug=$1-$2&slug=$3-$4
+
+
+# for details with sub category slug
+RewriteRule ^([\w]+)/([\w]+)/([\w]-)$ details.php?nssl=$3
+RewriteRule ^([\w]+)/([\w]+)/([\w]-)/$ details.php?nssl=$3
+
+RewriteRule ^([\w]+)/([\w]+)-([\w]+)/([\w]-)$ details.php?nssl=$4
+RewriteRule ^([\w]+)/([\w]+)-([\w]+)/([\w]-)/$  details.php?nssl=$4
+
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)/([\w]-)$  details.php?nssl=$4
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)/([\w]-)/$  details.php?nssl=$4
+
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/([\w]-)$  details.php?nssl=$5
+RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/([\w]-)/$  details.php?nssl=$5
+
+#RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/([0-9]+)/([^&]-)/$  details.php?nssl=$5
+#RewriteRule ^([\w]+)-([\w]+)/([\w]+)-([\w]+)/([0-9]+)/([^&]-)$  details.php?nssl=$5
+
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault				"access plus 1 month"
+
+##CSS
+ExpiresByType text/css			"access plus 1 year"
+
+##Data interchange
+ExpiresByType application/atom+xml	"access plus 1 hour"
+ExpiresByType application/rdf+xml	"access plus 1 hour"
+ExpiresByType application/rss+xml	"access plus 1 hour"
+
+ExpiresByType application/json		"access plus 0 seconds"
+ExpiresByType application/ld+json	"access plus 0 seconds"
+ExpiresByType application/schema+json	"access plus 0 seconds"
+ExpiresByType application/vnd.geo+json	"access plus 0 seconds"
+ExpiresByType application/xml		"access plus 0 seconds"
+ExpiresByType text/xml			"access plus 0 seconds"
+
+#Favicon (cannot be renamed!) and cursor images
+ExpiresByType image/vnd.microsoft.icon	"access plus 1 year"
+ExpiresByType image/x-icon		"access plus 1 year"
+
+#HTML
+ExpiresByType text/html			"access plus 0 seconds"
+
+#JavaScript
+ExpiresByType application/javascript	"access plus 1 year"
+ExpiresByType application/x-javascript	"access plus 1 year"
+ExpiresByType text/javascript		"access plus 1 year"
+
+#Manifest files
+ExpiresByType application/manifest+json	"access plus 1 week"
+ExpiresByType application/x-web-app-manifest+jso	"access plus 0 seconds"
+ExpiresByType text/cache-manifest	"access plus 0 seconds"
+
+
+#Media files
+ExpiresByType audio/ogg			"access plus 1 month"
+ExpiresByType image/bmp			"access plus 1 month"
+ExpiresByType image/gif			"access plus 1 month"
+ExpiresByType image/jpeg		"access plus 1 month"
+ExpiresByType image/png			"access plus 1 month"
+ExpiresByType image/svg+xml		"access plus 1 month"
+ExpiresByType image/webp		"access plus 1 month"
+ExpiresByType video/mp4			"access plus 1 month"
+ExpiresByType video/ogg			"access plus 1 month"
+ExpiresByType video/webm		"access plus 1 month"
+
+#Web fonts
+#Embedded OpenType (EOT)
+ExpiresByType application/vnd.ms-fontobject	"access plus 1 year"
+ExpiresByType font/eot			"access plus 1 year"
+
+#OpenType
+ExpiresByType font/opentype		"access plus 1 year"
+
+#TrueType
+ExpiresByType application/x-font-ttf	"access plus 1 year"
+
+#Web Open Font Format (WOFF) 1.0
+ExpiresByType application/font-woff	"access plus 1 year"
+ExpiresByType application/x-font-woff	"access plus 1 year"
+ExpiresByType font/woff			"access plus 1 year"
+
+#Web Open Font Format (WOFF) 2.0
+ExpiresByType application/font-woff2	"access plus 1 year"
+
+#Other
+ExpiresByType text/x-cross-domain-policy "access plus 1 week"
+</IfModule>
+
+ErrorDocument 400     /error.php
+ErrorDocument 401     /error.php
+ErrorDocument 403     /error.php
+ErrorDocument 404     /error.php
+ErrorDocument 500     /error.php
+ErrorDocument 501     /error.php
+ErrorDocument 502     /error.php
+ErrorDocument 503     /error.php
