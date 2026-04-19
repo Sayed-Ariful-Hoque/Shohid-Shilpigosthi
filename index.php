@@ -1,7 +1,6 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +40,6 @@
     echo $sCSSSlickTheme;
     echo $sCSSEMM; ?>
 </head>
-
 <body>
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -49,7 +47,7 @@
     <!-- Back to top button -->
     <a id="button"><i class="fas fa-angle-double-up"></i></a>
     <main>
-        <section class="hero-silider-area">
+        <section class="hero-slider-area">
             <div class="container-fluid">
                 <div class="hero-slider">
                     <div class="slide-item">
@@ -82,64 +80,6 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="divisions-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <a href="#">
-                            <div class="section-title text-center">
-                                <h2 class="title">Divisions</h2>
-                                <div class="underline">
-                                    <span></span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row g-4 division-wrapper">
-                    <div class="col-6 col-md-4 col-lg-3">
-                        <a href="#" class="division-card">
-                            <div class="division-img">
-                                <img src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="divisions-1.jpg">
-                            </div>
-                            <div class="division-content">
-                                <h4>Tilawat Section</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3">
-                        <a href="#" class="division-card">
-                            <div class="division-img">
-                                <img src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="divisions-2.jpg">
-                            </div>
-                            <div class="division-content">
-                                <h4>Islamic Song</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3">
-                        <a href="#" class="division-card">
-                            <div class="division-img">
-                                <img src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="divisions-3.jpg">
-                            </div>
-                            <div class="division-content">
-                                <h4>Recitation</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3">
-                        <a href="#" class="division-card">
-                            <div class="division-img">
-                                <img src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="divisions-4.jpg">
-                            </div>
-                            <div class="division-content">
-                                <h4>Theatre Department</h4>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section> -->
         <section class="divisions-area">
             <div class="container">
                 <div class="arrow-img-one">
@@ -148,50 +88,72 @@
                 <div class="arrow-img-tow">
                     <img src="media/imgAll/bg/Home-Page/arrow-2.svg" alt="">
                 </div>
-                <!-- Section Title -->
+                <div class="backgroun-imgs-icons-three">
+                    <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-3.png" alt="">
+                </div>
                 <div class="section-title text-center mb-5">
                     <h2 class="title">Divisions</h2>
+                    <div class="underline">
+                        <span></span>
+                    </div>
                 </div>
-                <div class="row g-4">
-                    <!-- 1 -->
-                    <div class="col-6 col-md-4 col-lg-3">
-                        <a href="#" class="division-card">
-                            <div class="division-img">
-                                <img src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
-                                <div class="overlay"></div>
-                                <h4>Tilawat Section</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- 2 -->
-                    <div class="col-6 col-md-4 col-lg-3">
-                        <a href="#" class="division-card">
-                            <div class="division-img">
-                                <img src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
-                                <div class="overlay"></div>
-                                <h4>Islamic Song</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- 3 -->
-                    <div class="col-6 col-md-4 col-lg-3">
-                        <a href="#" class="division-card">
-                            <div class="division-img">
-                                <img src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Recitation">
-                                <div class="overlay"></div>
-                                <h4>Recitation</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- 4 -->
-                    <div class="col-6 col-md-4 col-lg-3">
-                        <a href="#" class="division-card">
-                            <div class="division-img">
-                                <img src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="Theatre">
-                                <div class="overlay"></div>
-                                <h4>Theatre Department</h4>
-                            </div>
-                        </a>
+                <div class="divisions-wrapper">
+                    <div class="row g-4">
+                        <div class="col-lg-3 d-flex align-items-center">
+                            <a href="#" class="division-card">
+                                <div class="division-img">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
+                                    <div class="overlay"></div>
+                                    <div class="division-info">
+                                        <h4>Tilawat Section</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 d-flex align-items-center">
+                            <a href="#" class="division-card">
+                                <div class="division-img">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
+                                    <div class="overlay"></div>
+                                    <div class="division-info">
+                                        <h4>Islamic Song</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- <div class="col-lg-3 d-flex align-items-center">
+                            <a href="#" class="division-card">
+                                <div class="division-img">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Recitation">
+                                    <div class="overlay"></div>
+                                    <div class="division-info">
+                                        <h4>Recitation</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> -->
+                        <div class="col-lg-3 d-flex align-items-center">
+                            <a href="#" class="division-card">
+                                <div class="division-img">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Islamic Song">
+                                    <div class="overlay"></div>
+                                    <div class="division-info">
+                                        <h4>Recitation</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 d-flex align-items-center">
+                            <a href="#" class="division-card">
+                                <div class="division-img">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="Theatre">
+                                    <div class="overlay"></div>
+                                    <div class="division-info">
+                                        <h4>Theatre Department</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -305,6 +267,12 @@
                 <div class="arrow-img-four">
                     <img src="media/imgAll/bg/Home-Page/arrow-4.webp" alt="">
                 </div>
+                <div class="backgroun-imgs-icons-one">
+                    <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-1.png" alt="">
+                </div>
+                <div class="backgroun-imgs-icons-tow">
+                    <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-2.png" alt="">
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <a href="#">
@@ -370,27 +338,22 @@
     <?php echo $sJSSlick; ?>
     <?php echo $sJSBootStrap; ?>
     <script>
-        // hero-slider
         $('.hero-slider').slick({
             centerMode: true,
             centerPadding: '0px',
             slidesToShow: 1,
-            autoplay: false,
+            autoplay: true, 
             autoplaySpeed: 2000,
-            speed: 800,
+            speed: 1000,
+            fade: true, 
             cssEase: 'ease-in-out',
             arrows: true,
             prevArrow: '<span class="priv_arrow"><i class="fas fa-chevron-left"></i></span>',
             nextArrow: '<span class="next_arrow"><i class="fas fa-chevron-right"></i></span>',
             dots: false,
-            pauseOnHover: false,
-            responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1
-                }
-            }]
+            pauseOnHover: false
         });
+
         // video-slider
         $(document).ready(function() {
             $(".video-slider").slick({
@@ -447,5 +410,4 @@
     </script>
     <?php echo $sJSEMM; ?>
 </body>
-
 </html>

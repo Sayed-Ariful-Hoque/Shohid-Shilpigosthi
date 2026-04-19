@@ -1,36 +1,38 @@
 <header class="header-area">
-    <div class="main-menu sticky-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 d-flex align-items-center">
-                    <div class="menu-logo">
-                        <a href="<?php echo $sSiteURL; ?>"><img class="img-fluid" src="<?php echo $sLogoURL; ?>" alt="<?php echo $sSiteTitle; ?>" title="<?php echo $sSiteTitle; ?>"></a>
+    <div class="main-menu">
+        <div class="sticky-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 d-flex align-items-center">
+                        <div class="menu-logo">
+                            <a href="<?php echo $sSiteURL; ?>"><img class="img-fluid" src="<?php echo $sLogoURL; ?>" alt="<?php echo $sSiteTitle; ?>" title="<?php echo $sSiteTitle; ?>"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-9 d-flex align-items-center justify-content-end">
-                    <div class="middel-nave">
-                        <div class="header-location d-flex align-items-center">
-                             <ul class="d-flex align-items-center">
-                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="index.php">Gallery</a></li>
-                                <li class="nav-item"><a class="nav-link" href="index.php">Lyrics</a></li>
-                                <li class="nav-item"><a class="nav-link" href="index.php">Directors</a></li>
-                                <li class="nav-item"><a class="nav-link" href="index.php">Competition</a></li>
-                                <li class="nav-item"><a class="nav-link" href="index.php">Admission</a></li>
-                                <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#">About Us</a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Community</a></li>
-                                        <li><a class="dropdown-item" href="#">Housing</a></li>
-                                        <li><a class="dropdown-item" href="#">Jobs</a></li>
-                                        <li><a class="dropdown-item" href="#">services</a></li>
-                                        <li><a class="dropdown-item" href="#">discussion forums</a></li>
-                                        <li><a class="dropdown-item" href="#">For Sale</a></li>
-                                        <li><a class="dropdown-item" href="#">Gigs</a></li>
-                                        <li><a class="dropdown-item" href="#">Events</a></li>
-                                    </ul>
-                                </li> -->
-                            </ul>
+                    <div class="col-lg-9 d-flex align-items-center justify-content-end">
+                        <div class="middel-nave">
+                            <div class="header-location d-flex align-items-center">
+                                 <ul class="d-flex align-items-center">
+                                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="index.php">Gallery</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="index.php">Lyrics</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="index.php">Directors</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="index.php">Competition</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="index.php">Admission</a></li>
+                                    <!-- <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#">About Us</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Community</a></li>
+                                            <li><a class="dropdown-item" href="#">Housing</a></li>
+                                            <li><a class="dropdown-item" href="#">Jobs</a></li>
+                                            <li><a class="dropdown-item" href="#">services</a></li>
+                                            <li><a class="dropdown-item" href="#">discussion forums</a></li>
+                                            <li><a class="dropdown-item" href="#">For Sale</a></li>
+                                            <li><a class="dropdown-item" href="#">Gigs</a></li>
+                                            <li><a class="dropdown-item" href="#">Events</a></li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
