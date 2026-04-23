@@ -1,6 +1,7 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +41,7 @@
     echo $sCSSSlickTheme;
     echo $sCSSEMM; ?>
 </head>
+
 <body>
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -82,239 +84,245 @@
         </section>
         <section class="divisions-area">
             <div class="container">
-                <div class="arrow-img-one">
-                    <img src="media/imgAll/bg/Home-Page/arrow-1.svg" alt="">
-                </div>
-                <div class="arrow-img-tow">
-                    <img src="media/imgAll/bg/Home-Page/arrow-2.svg" alt="">
-                </div>
-                <div class="backgroun-imgs-icons-three">
-                    <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-3.png" alt="">
-                </div>
-                <div class="section-title text-center mb-5">
-                    <h2 class="title">Divisions</h2>
-                    <div class="underline">
-                        <span></span>
+                <div class="divisions-wrap">
+                    <div class="arrow-img-one">
+                        <img src="media/imgAll/bg/Home-Page/arrow-1.svg" alt="">
                     </div>
-                </div>
-                <div class="divisions-wrapper">
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                            <a href="#" class="division-card">
-                                <div class="division-img">
-                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
-                                    <div class="overlay"></div>
-                                    <div class="division-info">
-                                        <h4>Tilawat Section</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                            <a href="#" class="division-card">
-                                <div class="division-img">
-                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
-                                    <div class="overlay"></div>
-                                    <div class="division-info">
-                                        <h4>Islamic Song</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                            <a href="#" class="division-card">
-                                <div class="division-img">
-                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Islamic Song">
-                                    <div class="overlay"></div>
-                                    <div class="division-info">
-                                        <h4>Recitation</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                            <a href="#" class="division-card">
-                                <div class="division-img">
-                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="Theatre">
-                                    <div class="overlay"></div>
-                                    <div class="division-info">
-                                        <h4>Theatre Department</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="arrow-img-tow">
+                        <img src="media/imgAll/bg/Home-Page/arrow-2.svg" alt="">
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="popular-presentation-area">
-            <div class="container">
-                <div class="dot-img-one">
-                    <img src="media/imgAll/bg/Home-Page/dot-1.png" alt="">
-                </div>
-                <div class="dot-img-tow">
-                    <img src="media/imgAll/bg/Home-Page/dot-2.png" alt="">
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <a href="#">
+                    <div class="row">
+                        <div class="col-lg-12">
                             <div class="section-title text-center">
-                                <h2 class="title">Popular Presentation</h2>
+                                <h2><a href="#" class="title">Divisions</a></h2>
                                 <div class="underline">
                                     <span></span>
                                 </div>
                             </div>
-                        </a>
+                        </div>
+                    </div>
+                    <div class="divisions-wrapper">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                <a href="#" class="division-card">
+                                    <div class="division-img">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
+                                        <div class="overlay"></div>
+                                        <div class="division-info">
+                                            <h4>Tilawat Section</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                <a href="#" class="division-card">
+                                    <div class="division-img">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
+                                        <div class="overlay"></div>
+                                        <div class="division-info">
+                                            <h4>Islamic Song</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                <a href="#" class="division-card">
+                                    <div class="division-img">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Islamic Song">
+                                        <div class="overlay"></div>
+                                        <div class="division-info">
+                                            <h4>Recitation</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                <a href="#" class="division-card">
+                                    <div class="division-img">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="Theatre">
+                                        <div class="overlay"></div>
+                                        <div class="division-info">
+                                            <h4>Theatre Department</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="video-slider">
-                    <div class="video-gallery-items">
-                        <a href="#">
-                            <div class="video-gallery-imgs">
-                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-4.jpg" alt="video-theme-4.jpg">
-                                <div class="video-icons">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
-                                <div class="video-gallery-overlay"></div>
-                            </div>
-                        </a>
+            </div>
+            <div class="backgroun-imgs-icons-three">
+                <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-3.png" alt="">
+            </div>
+        </section>
+        <section class="popular-presentation-area">
+            <div class="container">
+                <div class="popular-presentation-wrap">
+                    <div class="dot-img-one">
+                        <img src="media/imgAll/bg/Home-Page/dot-1.png" alt="">
                     </div>
-                    <div class="video-gallery-items">
-                        <a href="#">
-                            <div class="video-gallery-imgs">
-                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-5.jpg" alt="video-theme-5.jpg">
-                                <div class="video-icons">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
-                                <div class="video-gallery-overlay"></div>
-                            </div>
-                        </a>
+                    <div class="dot-img-tow">
+                        <img src="media/imgAll/bg/Home-Page/dot-2.png" alt="">
                     </div>
-                    <div class="video-gallery-items">
-                        <a href="#">
-                            <div class="video-gallery-imgs">
-                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-6.jpg" alt="video-theme-6.jpg">
-                                <div class="video-icons">
-                                    <i class="fa-solid fa-play"></i>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center">
+                                <h2><a href="#" class="title">Popular Presentation</a></h2>
+                                <div class="underline">
+                                    <span></span>
                                 </div>
-                                <div class="video-gallery-overlay"></div>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                    <div class="video-gallery-items">
-                        <a href="#">
-                            <div class="video-gallery-imgs">
-                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-7.jpg" alt="video-theme-7.jpg">
-                                <div class="video-icons">
-                                    <i class="fa-solid fa-play"></i>
+                    <div class="video-slider">
+                        <div class="video-gallery-items">
+                            <a href="#">
+                                <div class="video-gallery-imgs">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-4.jpg" alt="video-theme-4.jpg">
+                                    <div class="video-icons">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="video-gallery-overlay"></div>
                                 </div>
-                                <div class="video-gallery-overlay"></div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="video-gallery-items">
-                        <a href="#">
-                            <div class="video-gallery-imgs">
-                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-1.jpg" alt="video-theme-1.jpg">
-                                <div class="video-icons">
-                                    <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="video-gallery-items">
+                            <a href="#">
+                                <div class="video-gallery-imgs">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-5.jpg" alt="video-theme-5.jpg">
+                                    <div class="video-icons">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="video-gallery-overlay"></div>
                                 </div>
-                                <div class="video-gallery-overlay"></div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="video-gallery-items">
-                        <a href="#">
-                            <div class="video-gallery-imgs">
-                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-2.jpg" alt="video-theme-2.jpg">
-                                <div class="video-icons">
-                                    <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="video-gallery-items">
+                            <a href="#">
+                                <div class="video-gallery-imgs">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-6.jpg" alt="video-theme-6.jpg">
+                                    <div class="video-icons">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="video-gallery-overlay"></div>
                                 </div>
-                                <div class="video-gallery-overlay"></div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="video-gallery-items">
-                        <a href="#">
-                            <div class="video-gallery-imgs">
-                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-3.jpg" alt="video-theme-3.jpg">
-                                <div class="video-icons">
-                                    <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="video-gallery-items">
+                            <a href="#">
+                                <div class="video-gallery-imgs">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-7.jpg" alt="video-theme-7.jpg">
+                                    <div class="video-icons">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="video-gallery-overlay"></div>
                                 </div>
-                                <div class="video-gallery-overlay"></div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        <div class="video-gallery-items">
+                            <a href="#">
+                                <div class="video-gallery-imgs">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-1.jpg" alt="video-theme-1.jpg">
+                                    <div class="video-icons">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="video-gallery-overlay"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-gallery-items">
+                            <a href="#">
+                                <div class="video-gallery-imgs">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-2.jpg" alt="video-theme-2.jpg">
+                                    <div class="video-icons">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="video-gallery-overlay"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-gallery-items">
+                            <a href="#">
+                                <div class="video-gallery-imgs">
+                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-3.jpg" alt="video-theme-3.jpg">
+                                    <div class="video-icons">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="video-gallery-overlay"></div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="activities-area">
             <div class="container">
-                <div class="arrow-img-three">
-                    <img src="media/imgAll/bg/Home-Page/arrow-3.webp" alt="">
-                </div>
-                <div class="arrow-img-four">
-                    <img src="media/imgAll/bg/Home-Page/arrow-4.webp" alt="">
-                </div>
-                <div class="backgroun-imgs-icons-one">
-                    <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-1.png" alt="">
-                </div>
-                <div class="backgroun-imgs-icons-tow">
-                    <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-2.png" alt="">
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <a href="#">
+                <div class="activities-wrap">
+                    <div class="arrow-img-three">
+                        <img src="media/imgAll/bg/Home-Page/arrow-3.webp" alt="">
+                    </div>
+                    <div class="arrow-img-four">
+                        <img src="media/imgAll/bg/Home-Page/arrow-4.webp" alt="">
+                    </div>
+                    <div class="backgroun-imgs-icons-one">
+                        <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-1.png" alt="">
+                    </div>
+                    <div class="backgroun-imgs-icons-tow">
+                        <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-2.png" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
                             <div class="section-title text-center">
-                                <h2 class="title">Our Activities</h2>
+                                <h2><a href="#" class="title">Our Activities</a></h2>
                                 <div class="underline">
                                     <span></span>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
-                        <div class="activity-card">
-                            <div class="icon"><i class="fas fa-music"></i></div>
-                            <h4>Cultural Events</h4>
-                            <p>We organize cultural programs and events</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
-                        <div class="activity-card">
-                            <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
-                            <h4>Training Programs</h4>
-                            <p>Simple and structured learning sessions</p>
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                            <div class="activity-card">
+                                <div class="icon"><i class="fas fa-music"></i></div>
+                                <h4>Cultural Events</h4>
+                                <p>We organize cultural programs and events</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
-                        <div class="activity-card">
-                            <div class="icon"><i class="fas fa-theater-masks"></i></div>
-                            <h4>Performances</h4>
-                            <p>Stage shows and live presentations</p>
+                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                            <div class="activity-card">
+                                <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                                <h4>Training Programs</h4>
+                                <p>Simple and structured learning sessions</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
-                        <div class="activity-card">
-                            <div class="icon"><i class="fas fa-tv"></i></div>
-                            <h4>TV Programs</h4>
-                            <p>Educational and media content</p>
+                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                            <div class="activity-card">
+                                <div class="icon"><i class="fas fa-theater-masks"></i></div>
+                                <h4>Performances</h4>
+                                <p>Stage shows and live presentations</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
-                        <div class="activity-card">
-                            <div class="icon"><i class="fas fa-book"></i></div>
-                            <h4>Publications</h4>
-                            <p>Books, articles and publications</p>
+                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                            <div class="activity-card">
+                                <div class="icon"><i class="fas fa-tv"></i></div>
+                                <h4>TV Programs</h4>
+                                <p>Educational and media content</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
-                        <div class="activity-card">
-                            <div class="icon"><i class="fas fa-trophy"></i></div>
-                            <h4>Competitions</h4>
-                            <p>Friendly contests and competitions</p>
+                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                            <div class="activity-card">
+                                <div class="icon"><i class="fas fa-book"></i></div>
+                                <h4>Publications</h4>
+                                <p>Books, articles and publications</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                            <div class="activity-card">
+                                <div class="icon"><i class="fas fa-trophy"></i></div>
+                                <h4>Competitions</h4>
+                                <p>Friendly contests and competitions</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -331,10 +339,10 @@
             centerMode: true,
             centerPadding: '0px',
             slidesToShow: 1,
-            autoplay: true, 
+            autoplay: true,
             autoplaySpeed: 2000,
             speed: 1000,
-            fade: true, 
+            fade: true,
             cssEase: 'ease-in-out',
             arrows: true,
             prevArrow: '<span class="priv_arrow"><i class="fas fa-chevron-left"></i></span>',
@@ -399,4 +407,5 @@
     </script>
     <?php echo $sJSEMM; ?>
 </body>
+
 </html>

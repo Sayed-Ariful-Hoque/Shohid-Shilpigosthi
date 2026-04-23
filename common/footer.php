@@ -43,7 +43,7 @@
                 </div>
             </div>
             <!-- Facebook -->
-            <div class="col-lg-3 col-sm-4  d-flex justify-content-sm-end justify-content-center">
+            <div class="col-lg-3 col-sm-4  d-flex justify-content-lg-center justify-content-sm-end justify-content-center">
                 <div class="footer-widget">
                     <h4>Follow Us</h4>
                     <div class="HeaderTopSocialIcon">

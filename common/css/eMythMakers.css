@@ -141,6 +141,9 @@ li {
   margin: 0;
   position: relative;
 }
+.section-title .title:hover {
+  color: var(--secondary-color);
+}
 .section-title .underline {
   margin: 15px auto;
   width: 120px;
@@ -317,15 +320,20 @@ li {
   background: #f5f7fb;
   position: relative;
 }
+.divisions-wrap {
+  position: relative;
+}
 .arrow-img-one {
   position: absolute;
-  top: 10px;
-  left: 40px;
+  top: -20px;
+  left: 0;
+  transform: rotate(-214deg);
 }
 .arrow-img-tow {
   position: absolute;
-  top: 10px;
-  right: 40px;
+  top: -20px;
+  right: 0;
+  transform: rotate(-30deg);
 }
 .backgroun-imgs-icons-three img {
   width: 59px;
@@ -412,18 +420,20 @@ li {
 .popular-presentation-area {
   padding: 50px 0;
   background: #ceced10f;
+}
+.popular-presentation-wrap {
   position: relative;
 }
 .dot-img-one {
   position: absolute;
-  top: 20px;
-  left: 33px;
+  top: -25px;
+  left: 0;
 }
 
 .dot-img-tow {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: -22px;
+  right: 0px;
 }
 .video-slider {
   position: relative;
@@ -515,8 +525,11 @@ li {
 /*=================activities area start====================*/
 .activities-area {
   background: #ceced12b;
-  position: relative;
+
   padding: 50px 0 100px;
+}
+.activities-wrap {
+  position: relative;
 }
 .arrow-img-three {
   position: absolute;
@@ -549,8 +562,8 @@ li {
 .backgroun-imgs-icons-tow img {
   width: 100px;
   position: absolute;
-  bottom: 5px;
-  right: 15px;
+  bottom: -91px;
+  right: 0;
   opacity: 0.4;
 }
 .activities-area .activity-card {
@@ -636,7 +649,7 @@ li {
   color: var(--white-color);
   border-radius: 50%;
 } */
- .HeaderTopSocialIcon a i {
+.HeaderTopSocialIcon a i {
   width: 24px;
   height: 24px;
   font-size: 12px;
@@ -966,11 +979,11 @@ li {
     border-radius: 5px;
   }
   .arrow-img-one {
-    top: 50px;
+    top: 0px;
     left: 0px;
   }
   .arrow-img-tow {
-    top: 50px;
+    top: 0px;
     right: 0px;
   }
   .arrow-img-one img,
@@ -986,6 +999,9 @@ li {
   }
   .section-title .title {
     font-size: 25px;
+  }
+  .dot-img-one img, .dot-img-tow img {
+    width: 80px;
   }
 }
 /* SM Small Device :550px. */
