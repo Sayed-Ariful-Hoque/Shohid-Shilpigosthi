@@ -99,7 +99,7 @@
                 </div>
                 <div class="divisions-wrapper">
                     <div class="row g-4">
-                        <div class="col-lg-3 d-flex align-items-center">
+                        <div class="col-lg-3 col-sm-6 d-flex align-items-center">
                             <a href="#" class="division-card">
                                 <div class="division-img">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
@@ -110,7 +110,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-3 d-flex align-items-center">
+                        <div class="col-lg-3 col-sm-6 d-flex align-items-center">
                             <a href="#" class="division-card">
                                 <div class="division-img">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
@@ -121,18 +121,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- <div class="col-lg-3 d-flex align-items-center">
-                            <a href="#" class="division-card">
-                                <div class="division-img">
-                                    <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Recitation">
-                                    <div class="overlay"></div>
-                                    <div class="division-info">
-                                        <h4>Recitation</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div> -->
-                        <div class="col-lg-3 d-flex align-items-center">
+                        <div class="col-lg-3 col-sm-6 d-flex align-items-center">
                             <a href="#" class="division-card">
                                 <div class="division-img">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Islamic Song">
@@ -143,7 +132,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-3 d-flex align-items-center">
+                        <div class="col-lg-3 col-sm-6 d-flex align-items-center">
                             <a href="#" class="division-card">
                                 <div class="division-img">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="Theatre">
@@ -286,42 +275,42 @@
                     </div>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
                         <div class="activity-card">
                             <div class="icon"><i class="fas fa-music"></i></div>
                             <h4>Cultural Events</h4>
                             <p>We organize cultural programs and events</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
                         <div class="activity-card">
                             <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
                             <h4>Training Programs</h4>
                             <p>Simple and structured learning sessions</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
                         <div class="activity-card">
                             <div class="icon"><i class="fas fa-theater-masks"></i></div>
                             <h4>Performances</h4>
                             <p>Stage shows and live presentations</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
                         <div class="activity-card">
                             <div class="icon"><i class="fas fa-tv"></i></div>
                             <h4>TV Programs</h4>
                             <p>Educational and media content</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
                         <div class="activity-card">
                             <div class="icon"><i class="fas fa-book"></i></div>
                             <h4>Publications</h4>
                             <p>Books, articles and publications</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6 d-flex align-items-center">
                         <div class="activity-card">
                             <div class="icon"><i class="fas fa-trophy"></i></div>
                             <h4>Competitions</h4>
@@ -379,21 +368,21 @@
                     {
                         breakpoint: 992,
                         settings: {
-                            slidesToShow: 4,
+                            slidesToShow: 3,
                             slidesToScroll: 1,
                         },
                     },
                     {
                         breakpoint: 768,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 2,
                             slidesToScroll: 1,
                         },
                     },
                     {
                         breakpoint: 600,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 2,
                             slidesToScroll: 1,
                         },
                     },

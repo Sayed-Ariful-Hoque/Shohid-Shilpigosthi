@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row gy-4">
             <!-- About -->
-            <div class="col-lg-3 col-md-6 d-flex">
+            <div class="col-lg-3 col-md-9 mx-auto mx-lg-0 mb-4 d-flex">
                 <div class="footer-widget">
                     <div class="footer-logo">
                         <a href="<?php echo $sSiteURL; ?>"><img class="img-fluid" src="<?php echo $sLogoURL; ?>" alt="<?php echo $sSiteTitle; ?>" title="<?php echo $sSiteTitle; ?>"></a>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <!-- Our Channels -->
-            <div class="col-lg-3 col-md-6 d-flex justify-content-center">
+            <div class="col-lg-3 col-sm-4 col-6 d-flex justify-content-center">
                 <div class="footer-widget">
                     <h4>Our Channels</h4>
                     <ul>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <!-- Important Links -->
-            <div class="col-lg-3 col-md-6 d-flex justify-content-center">
+            <div class="col-lg-3 col-sm-4 col-6 d-flex justify-content-center">
                 <div class="footer-widget">
                     <h4>Important Links</h4>
                     <ul>
@@ -43,10 +43,10 @@
                 </div>
             </div>
             <!-- Facebook -->
-            <div class="col-lg-3 col-md-6 d-flex">
+            <div class="col-lg-3 col-sm-4  d-flex justify-content-sm-end justify-content-center">
                 <div class="footer-widget">
                     <h4>Follow Us</h4>
-                    <div class="HeaderTopSocialIcon d-none d-lg-flex">
+                    <div class="HeaderTopSocialIcon">
                         <a class="facebook" href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                         <a class="youtube" href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                         <a class="instagram" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
