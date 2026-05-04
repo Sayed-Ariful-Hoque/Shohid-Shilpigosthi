@@ -13,10 +13,10 @@
                             <div class="header-location d-flex align-items-center">
                                 <ul class="d-flex align-items-center">
                                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index.php">Gallery</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index.php">Lyrics</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index.php">Directors</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index.php">Competition</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="lyrics.php">Lyrics</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="directors.php">Directors</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="competition.php">Competition</a></li>
                                     <li class="nav-item"><a class="nav-link" href="index.php">Admission</a></li>
                                     <!-- <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#">About Us</a>

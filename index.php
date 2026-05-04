@@ -1,7 +1,6 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,9 +38,9 @@
     echo $sCSSFontAwesome;
     echo $sCSSSlick;
     echo $sCSSSlickTheme;
+    echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
-
 <body>
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -109,7 +108,7 @@
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
                                         <div class="overlay"></div>
                                         <div class="division-info">
-                                            <h4>Tilawat Section</h4>
+                                            <h4>Cultural Shilpigosthi</h4>
                                         </div>
                                     </div>
                                 </a>
@@ -120,7 +119,7 @@
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
                                         <div class="overlay"></div>
                                         <div class="division-info">
-                                            <h4>Islamic Song</h4>
+                                            <h4>Performances</h4>
                                         </div>
                                     </div>
                                 </a>
@@ -176,7 +175,7 @@
                     </div>
                     <div class="video-slider">
                         <div class="video-gallery-items">
-                            <a href="#">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-4.jpg" alt="video-theme-4.jpg">
                                     <div class="video-icons">
@@ -184,73 +183,190 @@
                                     </div>
                                     <div class="video-gallery-overlay"></div>
                                 </div>
+                                <div class="video-gallery-info">
+                                    <h3>Voices that carry the legacy of martyrs Voices that carry the legacy of martyrs</h3>
+                                </div>
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="#">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-5.jpg" alt="video-theme-5.jpg">
                                     <div class="video-icons">
                                         <i class="fa-solid fa-play"></i>
                                     </div>
                                     <div class="video-gallery-overlay"></div>
+                                    <div class="video-gallery-info">
+                                        <h3>Songs that echo freedom and sacrifice</h3>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="#">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-6.jpg" alt="video-theme-6.jpg">
                                     <div class="video-icons">
                                         <i class="fa-solid fa-play"></i>
                                     </div>
                                     <div class="video-gallery-overlay"></div>
+                                    <div class="video-gallery-info">
+                                        <h3>Melodies of struggle, stories of courage</h3>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="#">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-7.jpg" alt="video-theme-7.jpg">
                                     <div class="video-icons">
                                         <i class="fa-solid fa-play"></i>
                                     </div>
                                     <div class="video-gallery-overlay"></div>
+                                    <div class="video-gallery-info">
+                                        <h3>Our history lives in these songs</h3>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="#">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-1.jpg" alt="video-theme-1.jpg">
                                     <div class="video-icons">
                                         <i class="fa-solid fa-play"></i>
                                     </div>
                                     <div class="video-gallery-overlay"></div>
+                                    <div class="video-gallery-info">
+                                        <h3>Tunes of sacrifice, pride in every beat</h3>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="#">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-2.jpg" alt="video-theme-2.jpg">
                                     <div class="video-icons">
                                         <i class="fa-solid fa-play"></i>
                                     </div>
                                     <div class="video-gallery-overlay"></div>
+                                    <div class="video-gallery-info">
+                                        <h3>Not just music—it's emotion and remembrance</h3>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="#">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-3.jpg" alt="video-theme-3.jpg">
                                     <div class="video-icons">
                                         <i class="fa-solid fa-play"></i>
                                     </div>
                                     <div class="video-gallery-overlay"></div>
+                                    <div class="video-gallery-info">
+                                        <h3>A tribute in every note to our martyrs</h3>
+                                    </div>
                                 </div>
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="photo-gallery-Area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2><a href="gallery.php" class="title">Photo Gallery</a></h2>
+                            <div class="underline">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo-gallery">
+                    <div class="row">
+                        <div class="col-lg-6 order-lg-2 order-1 mb-2 mb-md-3 mb-lg-0">
+                            <div class="photo-gallery-lead">
+                                <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-1.jpg" data-caption="Honoring the martyrs through art, music, and unity — Shohid-Shilpigosthi.">
+                                    <div class="photo-Gallery-Imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/photo-gallery-1.jpg"
+                                            alt="photo-gallery-1.jpg">
+                                        <div class="photo-Gallery-Overlay"></div>
+                                    </div>
+                                    <div class="photo-Gallery-Info">
+                                        <h3>Honoring the martyrs through art, music, and unity — Shohid-Shilpigosthi.</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 order-lg-1 order-2">
+                            <div class="row g-md-3 g-lg-0">
+                                <div class="col-lg-12 col-md-6 ">
+                                    <div class="photo-gallery-List">
+                                        <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-2.jpg" data-caption="Where sacrifice meets creativity — Shohid-Shilpigosthi in action.">
+                                            <div class="photo-Gallery-Imgs">
+                                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/photo-gallery-2.jpg"
+                                                    alt="photo-gallery-2.jpg">
+                                                <div class="photo-Gallery-Overlay"></div>
+                                            </div>
+                                            <div class="photo-Gallery-Info">
+                                                <h3>Where sacrifice meets creativity — Shohid-Shilpigosthi in action.</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-6 ">
+                                    <div class="photo-gallery-List">
+                                        <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-3.jpg" data-caption="Keeping the spirit of the martyrs alive through cultural expression.">
+                                            <div class="photo-Gallery-Imgs">
+                                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/photo-gallery-3.jpg"
+                                                    alt="photo-gallery-2.jpg">
+                                                <div class="photo-Gallery-Overlay"></div>
+                                            </div>
+                                            <div class="photo-Gallery-Info">
+                                                <h3>Keeping the spirit of the martyrs alive through cultural expression.</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 order-lg-3 order-3">
+                            <div class="row g-md-3 g-lg-0">
+                                <div class="col-lg-12  col-md-6">
+                                    <div class="photo-gallery-List">
+                                        <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-4.jpg" data-caption="Remembering the heroes, inspiring the future through performance and culture.">
+                                            <div class="photo-Gallery-Imgs">
+                                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/photo-gallery-4.jpg"
+                                                    alt="photo-gallery-2.jpg">
+                                                <div class="photo-Gallery-Overlay"></div>
+                                            </div>
+                                            <div class="photo-Gallery-Info">
+                                                <h3>Remembering the heroes, inspiring the future through performance and culture.</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12  col-md-6">
+                                    <div class="photo-gallery-List">
+                                        <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-5.jpg" data-caption="Art with purpose, voices with meaning — Shohid-Shilpigosthi.">
+                                            <div class="photo-Gallery-Imgs">
+                                                <img class="img-fluid" src="media/imgAll/bg/Home-Page/photo-gallery-5.jpg"
+                                                    alt="photo-gallery-2.jpg">
+                                                <div class="photo-Gallery-Overlay"></div>
+                                            </div>
+                                            <div class="photo-Gallery-Info">
+                                                <h3>Art with purpose, voices with meaning — Shohid-Shilpigosthi.</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -334,6 +450,7 @@
     <?php echo $sJSjQuery; ?>
     <?php echo $sJSSlick; ?>
     <?php echo $sJSBootStrap; ?>
+    <?php echo $sJSFancybox; ?>
     <script>
         $('.hero-slider').slick({
             centerMode: true,
@@ -350,7 +467,6 @@
             dots: false,
             pauseOnHover: false
         });
-
         // video-slider
         $(document).ready(function() {
             $(".video-slider").slick({
@@ -404,8 +520,19 @@
                 ],
             });
         });
+        // Fancybox
+        Fancybox.bind("[data-fancybox='photo-gallery']", {
+            Thumbs: {
+                autoStart: true,
+            },
+            Toolbar: {
+                display: ["close", "zoom", "fullscreen", "thumbs"],
+            },
+            AnimationEffect: "zoom",
+            dragToClose: true,
+            loop: true,
+        });
     </script>
     <?php echo $sJSEMM; ?>
 </body>
-
 </html>

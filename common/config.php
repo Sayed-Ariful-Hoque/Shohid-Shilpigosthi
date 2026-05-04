@@ -47,6 +47,8 @@ $sCSSFontAwesome = '<link rel="stylesheet" type="text/css" href="https://cdnjs.c
 $sCSSSlick = '<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">';
 $sCSSSlickTheme = '<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">';
 $sCSSAnimate = '<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">';
+$sCSSFancybox = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"/>';
+
 
 $sJSjQuery = '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>';
 $sJSPopper = '<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>';
@@ -54,6 +56,8 @@ $sJSBootStrap = '<script type="text/javascript" src="https://cdn.jsdelivr.net/np
 $sJSSlick = '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>';
 $sWowjs = '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>';
 $sJSAnimate = '<script type="text/javascript" src="common/js/slick-animation.min.js"></script>';
+$sJSFancybox = '<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>';
+
 
 $sJShtml5shiv = '<script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>';
 $sJSrespond = '<script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>';
