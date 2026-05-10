@@ -59,6 +59,122 @@
         </section>
         <section class="divisions-page-area">
             <div class="container">
+                <div class="divisions-wrap">
+                    <div class="row g-3">
+                        <div class="col-lg-4">
+                            <a href="divisions-details.php">
+                                <div class="divisions-items">
+                                    <div class="divisions-items-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/others-page/theatre-department-1.jpg" alt="theatre-department-1.jpg">
+                                    </div>
+                                    <div class="divisions-items-info">
+                                        <div class="divisions-items-heading">
+                                            <h2>Acting</h2>
+                                        </div>
+                                        <div class="overlay-content">
+                                            <h3>Acting</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <button class="common-btns">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="divisions-details.php">
+                                <div class="divisions-items">
+                                    <div class="divisions-items-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/others-page/theatre-department-2.jpg" alt="theatre-department-2.jpg">
+                                    </div>
+                                    <div class="divisions-items-info">
+                                        <div class="divisions-items-heading">
+                                            <h2>Design</h2>
+                                        </div>
+                                        <div class="overlay-content">
+                                            <h3>Design</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <button class="common-btns">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="divisions-details.php">
+                                <div class="divisions-items">
+                                    <div class="divisions-items-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/others-page/theatre-department-3.jpg" alt="theatre-department-3.jpg">
+                                    </div>
+                                    <div class="divisions-items-info">
+                                        <div class="divisions-items-heading">
+                                            <h2>Directing</h2>
+                                        </div>
+                                        <div class="overlay-content">
+                                            <h3>Directing</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <button class="common-btns">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="divisions-items">
+                                <div class="divisions-items-imgs">
+                                    <img class="img-fluid" src="media/imgAll/bg/others-page/theatre-department-4.jpg" alt="theatre-department-4.jpg">
+                                </div>
+                                <div class="divisions-items-info">
+                                    <div class="divisions-items-heading">
+                                        <h2>Dramaturgy and Dramatic Criticism</h2>
+                                    </div>
+                                    <div class="overlay-content">
+                                        <h3>Dramaturgy and Dramatic Criticism</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="common-btns">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="divisions-details.php">
+                                <div class="divisions-items">
+                                    <div class="divisions-items-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/others-page/theatre-department-5.jpg" alt="theatre-department-5.jpg">
+                                    </div>
+                                    <div class="divisions-items-info">
+                                        <div class="divisions-items-heading">
+                                            <h2>Playwriting</h2>
+                                        </div>
+                                        <div class="overlay-content">
+                                            <h3>Playwriting</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <button class="common-btns">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="divisions-details.php">
+                                <div class="divisions-items">
+                                    <div class="divisions-items-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/others-page/theatre-department-6.jpg" alt="theatre-department-6.jpg">
+                                    </div>
+                                    <div class="divisions-items-info">
+                                        <div class="divisions-items-heading">
+                                            <h2>Stage Management</h2>
+                                        </div>
+                                        <div class="overlay-content">
+                                            <h3>Stage Management</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <button class="common-btns">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -68,4 +184,5 @@
     <?php echo $sJSBootStrap; ?>
     <?php echo $sJSEMM; ?>
 </body>
+
 </html>

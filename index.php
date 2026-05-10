@@ -93,7 +93,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-title text-center">
-                                <h2><a href="#" class="title">Divisions</a></h2>
+                                <h2><a href="divisions.php" class="title">Divisions</a></h2>
                                 <div class="underline">
                                     <span></span>
                                 </div>
@@ -103,7 +103,7 @@
                     <div class="divisions-wrapper">
                         <div class="row g-4">
                             <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                <a href="#" class="division-card">
+                                <a href="divisions.php" class="division-card">
                                     <div class="division-img">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
                                         <div class="overlay"></div>
@@ -114,7 +114,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                <a href="#" class="division-card">
+                                <a href="divisions.php" class="division-card">
                                     <div class="division-img">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
                                         <div class="overlay"></div>
@@ -125,7 +125,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                <a href="#" class="division-card">
+                                <a href="divisions.php" class="division-card">
                                     <div class="division-img">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Islamic Song">
                                         <div class="overlay"></div>
@@ -136,7 +136,7 @@
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                <a href="#" class="division-card">
+                                <a href="divisions.php" class="division-card">
                                     <div class="division-img">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="Theatre">
                                         <div class="overlay"></div>

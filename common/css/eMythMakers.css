@@ -964,9 +964,120 @@ li {
 }
 .competition-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 /*=================competition page area End====================*/
+/*=================divisions page area Start====================*/
+.divisions-page-area {
+  padding: 50px 0;
+}
+.divisions-items {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.divisions-items-imgs img {
+  width: 100%;
+  aspect-ratio: 1.4;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+.divisions-items-info {
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.46);
+}
+.divisions-items-heading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+.divisions-items-heading h2{
+  text-align: center;
+  color: var(--white-color);
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.overlay-content {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding:80px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.4s;
+}
+.divisions-items-info:hover .overlay-content {
+  background: var(--primary-color);
+}
+.divisions-items-info:hover h2 {
+  display: none;
+}
+.overlay-content h3 {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.overlay-content p {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.common-btns {
+  background: transparent;
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid var(--border-color);
+  display: inline;
+  padding: 6px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+  outline: none;
+}
+.overlay-content .common-btns:hover {
+  background: #fff;
+  color: #000;
+}
+.divisions-items:hover .overlay-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+.divisions-items:hover img {
+  transform: scale(1.1);
+}
+/*=================divisions page area End====================*/
+/*=================divisions details page area Start====================*/
+.divisions-details-hero-area{
+  padding: 50px 0;
+}
+.divisions-details-video iframe{
+  border-radius: 8px;
+} 
+/*=================divisions details page area End====================*/
 /*=================footer area start====================*/
 .footer-area {
   background: var(--primary-color);
