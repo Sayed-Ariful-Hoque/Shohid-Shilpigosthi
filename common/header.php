@@ -73,22 +73,22 @@
                                     </li>
                                     <li class="sub-mobile-menu">
                                         <div class="sub-menu-mobile-link">
-                                            <a href="#">Gallery</a>
+                                            <a href="gallery.php">Gallery</a>
                                         </div>
                                     </li>
                                     <li class="sub-mobile-menu">
                                         <div class="sub-menu-mobile-link">
-                                            <a href="#">Lyrics</a>
+                                            <a href="lyrics.php">Lyrics</a>
                                         </div>
                                     </li>
                                     <li class="sub-mobile-menu">
                                         <div class="sub-menu-mobile-link">
-                                            <a href="#">Directors</a>
+                                            <a href="directors.php">Directors</a>
                                         </div>
                                     </li>
                                     <li class="sub-mobile-menu">
                                         <div class="sub-menu-mobile-link">
-                                            <a href="#">Competition</a>
+                                            <a href="competition.php">Competition</a>
                                         </div>
                                     </li>
                                     <li class="sub-mobile-menu">

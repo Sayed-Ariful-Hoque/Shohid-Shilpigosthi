@@ -1,12 +1,11 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <title><?php echo $sSiteTitle; ?></title>
+    <title>Lyrics</title>
     <?php echo $sGAnalytics;
     echo $sGTagManagerHead;
     echo $sAddSense;
@@ -40,7 +39,6 @@
     echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
-
 <body class="others-page">
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -61,7 +59,7 @@
             <div class="container">
                 <div class="lyrics-wrap">
                     <div class="row g-3">
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -76,7 +74,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -91,7 +89,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -106,7 +104,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -121,7 +119,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -136,7 +134,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -151,7 +149,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -166,7 +164,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -181,7 +179,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -196,7 +194,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -211,7 +209,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -226,7 +224,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-2 d-flex">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex">
                             <a href="lyrics-details.php">
                                 <div class="lyrics-card">
                                     <div class="lyrics-card-imgs">
@@ -252,5 +250,4 @@
     <?php echo $sJSBootStrap; ?>
     <?php echo $sJSEMM; ?>
 </body>
-
 </html>

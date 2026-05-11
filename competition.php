@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <title><?php echo $sSiteTitle; ?></title>
+    <title>Competition</title>
     <?php echo $sGAnalytics;
     echo $sGTagManagerHead;
     echo $sAddSense;
@@ -58,42 +58,42 @@
         <section class="competition-page-area">
             <div class="container">
                 <div class="row g-3">
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 col-sm-6 d-flex">
                         <div class="competition-card">
                             <img class="img-fluid" src="media/imgAll/bg/others-page/competition-1.jpg" alt="competition-1.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 col-sm-6 d-flex">
                         <div class="competition-card">
                             <img class="img-fluid" src="media/imgAll/bg/others-page/competition-2.jpg" alt="competition-2.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 col-sm-6 d-flex">
                         <div class="competition-card">
                             <img class="img-fluid" src="media/imgAll/bg/others-page/competition-3.jpg" alt="competition-3.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 col-sm-6 d-flex">
                         <div class="competition-card">
                             <img class="img-fluid" src="media/imgAll/bg/others-page/competition-4.jpg" alt="competition-4.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 col-sm-6 d-flex">
                         <div class="competition-card">
                             <img class="img-fluid" src="media/imgAll/bg/others-page/competition-5.jpg" alt="competition-5.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 col-sm-6 d-flex">
                         <div class="competition-card">
                             <img class="img-fluid" src="media/imgAll/bg/others-page/competition-6.jpg" alt="competition-6.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 col-sm-6 d-flex">
                         <div class="competition-card">
                             <img class="img-fluid" src="media/imgAll/bg/others-page/competition-7.jpg" alt="competition-7.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 col-sm-6 d-flex">
                         <div class="competition-card">
                             <img class="img-fluid" src="media/imgAll/bg/others-page/competition-8.jpg" alt="competition-8.jpg">
                         </div>

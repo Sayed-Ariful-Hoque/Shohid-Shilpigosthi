@@ -1,12 +1,11 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <title><?php echo $sSiteTitle; ?></title>
+    <title>Lyrics Details</title>
     <?php echo $sGAnalytics;
     echo $sGTagManagerHead;
     echo $sAddSense;
@@ -40,7 +39,6 @@
     echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
-
 <body class="others-page">
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -53,6 +51,7 @@
                 <h1>Lyrics Details</h1>
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
+                    <li><a href="lyrics.php">Lyrics</a></li>
                     <li class="active">Lyrics Details</li>
                 </ul>
             </div>
@@ -103,5 +102,4 @@
         async="async"></script>
     <?php echo $sJSEMM; ?>
 </body>
-
 </html>

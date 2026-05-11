@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <title><?php echo $sSiteTitle; ?></title>
+    <title>Directors</title>
     <?php echo $sGAnalytics;
     echo $sGTagManagerHead;
     echo $sAddSense;
@@ -58,7 +58,7 @@
         <section class="directors-page-area">
             <div class="container">
                 <div class="row g-3">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="profile-card">
                             <div class="img-box">
                                 <img src="media/imgAll/bg/others-page/member-1.jpg" alt="member-1">
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="profile-card">
                             <div class="img-box">
                                 <img src="media/imgAll/bg/others-page/member-1.jpg" alt="member-1">
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="profile-card">
                             <div class="img-box">
                                 <img src="media/imgAll/bg/others-page/member-1.jpg" alt="member-1">
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="profile-card">
                             <div class="img-box">
                                 <img src="media/imgAll/bg/others-page/member-1.jpg" alt="member-1">
@@ -134,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="profile-card">
                             <div class="img-box">
                                 <img src="media/imgAll/bg/others-page/member-1.jpg" alt="member-1">
@@ -153,7 +153,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="profile-card">
                             <div class="img-box">
                                 <img src="media/imgAll/bg/others-page/member-1.jpg" alt="member-1">
@@ -172,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="profile-card">
                             <div class="img-box">
                                 <img src="media/imgAll/bg/others-page/member-1.jpg" alt="member-1">
@@ -191,7 +191,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="profile-card">
                             <div class="img-box">
                                 <img src="media/imgAll/bg/others-page/member-1.jpg" alt="member-1">

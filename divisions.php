@@ -1,12 +1,11 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <title><?php echo $sSiteTitle; ?></title>
+    <title>Theatre Department</title>
     <?php echo $sGAnalytics;
     echo $sGTagManagerHead;
     echo $sAddSense;
@@ -40,7 +39,6 @@
     echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
-
 <body class="others-page">
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -61,7 +59,7 @@
             <div class="container">
                 <div class="divisions-wrap">
                     <div class="row g-3">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-6">
                             <a href="divisions-details.php">
                                 <div class="divisions-items">
                                     <div class="divisions-items-imgs">
@@ -80,7 +78,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-6">
                             <a href="divisions-details.php">
                                 <div class="divisions-items">
                                     <div class="divisions-items-imgs">
@@ -99,7 +97,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-6">
                             <a href="divisions-details.php">
                                 <div class="divisions-items">
                                     <div class="divisions-items-imgs">
@@ -118,24 +116,26 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="divisions-items">
-                                <div class="divisions-items-imgs">
-                                    <img class="img-fluid" src="media/imgAll/bg/others-page/theatre-department-4.jpg" alt="theatre-department-4.jpg">
-                                </div>
-                                <div class="divisions-items-info">
-                                    <div class="divisions-items-heading">
-                                        <h2>Dramaturgy and Dramatic Criticism</h2>
+                        <div class="col-lg-4 col-sm-6">
+                            <a href="divisions-details.php">
+                                <div class="divisions-items">
+                                    <div class="divisions-items-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/others-page/theatre-department-4.jpg" alt="theatre-department-4.jpg">
                                     </div>
-                                    <div class="overlay-content">
-                                        <h3>Dramaturgy and Dramatic Criticism</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        <button class="common-btns">Explore</button>
+                                    <div class="divisions-items-info">
+                                        <div class="divisions-items-heading">
+                                            <h2>Dramaturgy and Dramatic Criticism</h2>
+                                        </div>
+                                        <div class="overlay-content">
+                                            <h3>Dramaturgy and Dramatic Criticism</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            <button class="common-btns">Explore</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-6">
                             <a href="divisions-details.php">
                                 <div class="divisions-items">
                                     <div class="divisions-items-imgs">
@@ -154,7 +154,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-6">
                             <a href="divisions-details.php">
                                 <div class="divisions-items">
                                     <div class="divisions-items-imgs">
