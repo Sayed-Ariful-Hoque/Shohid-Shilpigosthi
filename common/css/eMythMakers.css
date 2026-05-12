@@ -1024,8 +1024,8 @@ li {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  padding: 80px;
+  justify-content: center;
+  padding: 0 80px;
   opacity: 0;
   transform: translateY(40px);
   transition: 0.4s;
@@ -1044,7 +1044,7 @@ li {
   margin-bottom: 10px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -1128,16 +1128,10 @@ li {
 }
 /*=================divisions details page area End====================*/
 /*=================registration-page area End====================*/
-.registration-page {
+.registrations-page {
   padding: 50px 0;
   background: var(--white-color);
 }
-
-.register-section {
-  padding: 80px 0;
-  background: #f4f7fb;
-}
-
 .register-card {
   background: #fff;
   border-radius: 20px;
@@ -1145,7 +1139,6 @@ li {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
   border: 1px solid #ececec;
 }
-
 .register-title {
   font-size: 30px;
   font-weight: 600;
@@ -1154,11 +1147,9 @@ li {
   color: #000;
   position: relative;
 }
-
 .form-group {
   margin-bottom: 22px;
 }
-
 .form-label {
   color: #000;
   margin-bottom: 8px;

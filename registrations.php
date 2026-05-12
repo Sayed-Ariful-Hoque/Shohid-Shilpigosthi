@@ -1,7 +1,6 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,7 +39,6 @@
     echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
-
 <body class="others-page">
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -57,7 +55,7 @@
                 </ul>
             </div>
         </section>
-        <section class="register-section">
+        <section class="registrations-page">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -363,5 +361,4 @@
     <?php echo $sJSBootStrap; ?>
     <?php echo $sJSEMM; ?>
 </body>
-
 </html>
