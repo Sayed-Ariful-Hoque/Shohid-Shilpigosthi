@@ -17,20 +17,7 @@
                                     <li class="nav-item"><a class="nav-link" href="lyrics.php">Lyrics</a></li>
                                     <li class="nav-item"><a class="nav-link" href="directors.php">Directors</a></li>
                                     <li class="nav-item"><a class="nav-link" href="competition.php">Competition</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index.php">Admission</a></li>
-                                    <!-- <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#">About Us</a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Community</a></li>
-                                            <li><a class="dropdown-item" href="#">Housing</a></li>
-                                            <li><a class="dropdown-item" href="#">Jobs</a></li>
-                                            <li><a class="dropdown-item" href="#">services</a></li>
-                                            <li><a class="dropdown-item" href="#">discussion forums</a></li>
-                                            <li><a class="dropdown-item" href="#">For Sale</a></li>
-                                            <li><a class="dropdown-item" href="#">Gigs</a></li>
-                                            <li><a class="dropdown-item" href="#">Events</a></li>
-                                        </ul>
-                                    </li> -->
+                                    <li class="nav-item"><a class="nav-link" href="registrations.php">Registrations</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -93,7 +80,7 @@
                                     </li>
                                     <li class="sub-mobile-menu">
                                         <div class="sub-menu-mobile-link">
-                                            <a href="#">Admission</a>
+                                            <a href="registrations.php">Registrations</a>
                                         </div>
                                     </li>
                                 </ul>

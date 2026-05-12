@@ -2,7 +2,6 @@
 <footer class="footer-area">
     <div class="container">
         <div class="row gy-4">
-            <!-- About -->
             <div class="col-lg-3 col-md-9 mx-auto mx-lg-0 mb-4 d-flex">
                 <div class="footer-widget">
                     <div class="footer-logo">
@@ -16,34 +15,28 @@
 
                 </div>
             </div>
-            <!-- Our Channels -->
             <div class="col-lg-3 col-sm-4 col-6 d-flex justify-content-center">
                 <div class="footer-widget">
-                    <h4>Our Channels</h4>
+                    <h4>Quick Link</h4>
                     <ul>
-                        <li><a href="#">Shohid Shilpigosthi</a></li>
-                        <li><a href="#">Shohid Theatre</a></li>
-                        <li><a href="#">Shohid Recitation</a></li>
-                        <li><a href="#">Shohid Dawah</a></li>
-                        <li><a href="#">Shohid Old Songs</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="lyrics.php">Lyrics</a></li>
+                        <li><a href="directors.php">Directors</a></li>
                     </ul>
                 </div>
             </div>
-            <!-- Important Links -->
             <div class="col-lg-3 col-sm-4 col-6 d-flex justify-content-center">
                 <div class="footer-widget">
                     <h4>Important Links</h4>
                     <ul>
                         <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Return & Refund Policy</a></li>
                         <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Delivery Policy</a></li>
-                        <li><a href="#">Admission & Academy</a></li>
+                        <li><a href="registration.php">Admission & Registrations</a></li>
                     </ul>
                 </div>
             </div>
-            <!-- Facebook -->
-            <div class="col-lg-3 col-sm-4  d-flex justify-content-lg-center justify-content-sm-end justify-content-center">
+            <div class="col-lg-3 col-sm-4  d-flex justify-content-center">
                 <div class="footer-widget">
                     <h4>Follow Us</h4>
                     <div class="HeaderTopSocialIcon">
