@@ -62,27 +62,40 @@ $(document).ready(function () {
     });
   });
   // language
-  $(document).ready(function () {
-    $(".lang-btn").click(function () {
-      $(".lang-btn").removeClass("active");
-      $(this).addClass("active");
-    });
-  });
+  // $(document).ready(function () {
+  //   $(".lang-btn").click(function () {
+  //     $(".lang-btn").removeClass("active");
+  //     $(this).addClass("active");
+  //   });
+  // });
+  
+  // Dynamic Font Change
+  document.querySelectorAll(".dynamic-font").forEach(function (element) {
+    let text = element.innerText.trim();
 
+    // Bengali Detect
+    let banglaRegex = /[\u0980-\u09FF]/;
+
+    if (banglaRegex.test(text)) {
+      element.classList.add("bangla-font");
+    } else {
+      element.classList.add("english-font");
+    }
+  });
   //Search
-  $(".menu-search").click(function (event) {
-    event.preventDefault();
-    $(".search_block").toggle("show hide");
-  });
-  $("a.close-search").click(function (e) {
-    e.preventDefault();
-    $(".search_block").toggle("show hide");
-  });
-  $(".menu-left").click(function (e) {
-    e.preventDefault();
-    $(".MobileMenu, .menu-left i").toggleClass("show hide");
-    $("body, .most_last_news_details, .most_read_details").toggleClass("no-scrollbar");
-  });
+  // $(".menu-search").click(function (event) {
+  //   event.preventDefault();
+  //   $(".search_block").toggle("show hide");
+  // });
+  // $("a.close-search").click(function (e) {
+  //   e.preventDefault();
+  //   $(".search_block").toggle("show hide");
+  // });
+  // $(".menu-left").click(function (e) {
+  //   e.preventDefault();
+  //   $(".MobileMenu, .menu-left i").toggleClass("show hide");
+  //   $("body, .most_last_news_details, .most_read_details").toggleClass("no-scrollbar");
+  // });
   // mobilel menu js
   $(".mobile-topbar .bars i").on("click", function () {
     $(".mobile-menu-overlay,.mobile-menu-main").addClass("active");
@@ -95,7 +108,10 @@ $(document).ready(function () {
     $(".accordion-click").click(function () {
       let submenu = $(this).closest(".sub-mobile-menu").find("ul");
       $(".sub-mobile-menu ul").not(submenu).slideUp(300);
-      $(".accordion-click i").not($(this).find("i")).removeClass("fa-angle-up").addClass("fa-angle-down");
+      $(".accordion-click i")
+        .not($(this).find("i"))
+        .removeClass("fa-angle-up")
+        .addClass("fa-angle-down");
       if (submenu.is(":visible")) {
         submenu.slideUp(300);
         $(this).find("i").removeClass("fa-angle-up").addClass("fa-angle-down");

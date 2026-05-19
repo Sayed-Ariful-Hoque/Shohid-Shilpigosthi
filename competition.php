@@ -1,6 +1,7 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,6 +40,7 @@
     echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
+
 <body class="others-page">
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -57,48 +59,450 @@
         </section>
         <section class="competition-page-area">
             <div class="container">
-                <div class="row g-3">
-                    <div class="col-lg-3 col-sm-6 d-flex">
-                        <div class="competition-card">
-                            <img class="img-fluid" src="media/imgAll/bg/others-page/competition-1.jpg" alt="competition-1.jpg">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 d-flex">
-                        <div class="competition-card">
-                            <img class="img-fluid" src="media/imgAll/bg/others-page/competition-2.jpg" alt="competition-2.jpg">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 d-flex">
-                        <div class="competition-card">
-                            <img class="img-fluid" src="media/imgAll/bg/others-page/competition-3.jpg" alt="competition-3.jpg">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 d-flex">
-                        <div class="competition-card">
-                            <img class="img-fluid" src="media/imgAll/bg/others-page/competition-4.jpg" alt="competition-4.jpg">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 d-flex">
-                        <div class="competition-card">
-                            <img class="img-fluid" src="media/imgAll/bg/others-page/competition-5.jpg" alt="competition-5.jpg">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 d-flex">
-                        <div class="competition-card">
-                            <img class="img-fluid" src="media/imgAll/bg/others-page/competition-6.jpg" alt="competition-6.jpg">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 d-flex">
-                        <div class="competition-card">
-                            <img class="img-fluid" src="media/imgAll/bg/others-page/competition-7.jpg" alt="competition-7.jpg">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 d-flex">
-                        <div class="competition-card">
-                            <img class="img-fluid" src="media/imgAll/bg/others-page/competition-8.jpg" alt="competition-8.jpg">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="competition-wrap">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="copetition-tabs-heding">
+                                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                    Upcoming</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Past</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="pills-ongoing-tab" data-bs-toggle="pill" data-bs-target="#pills-ongoing" type="button" role="tab" aria-controls="pills-ongoing" aria-selected="false" ongoing>Ongoing</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="copetition-tabs-body">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                        aria-labelledby="pills-home-tab" tabindex="0">
+                                        <div class="competition-items-wrap">
+                                            <div class="row g-3">
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-2.jpg" alt="Rise Beyond Limits">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Rise Beyond Limits</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-3.jpg" alt="স্বপ্ন থেকে সফলতা">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">স্বপ্ন থেকে সফলতা</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-5.jpg" alt="competition-5.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">তরুণদের নতুন যাত্রা</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-6.jpg" alt="competition-6.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Creative Talent Hunt</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">জ্ঞানেই শক্তি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-8.jpg" alt="competition-8.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Dream Big Achieve Bigger</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                        aria-labelledby="pills-profile-tab" tabindex="0">
+                                        <div class="competition-items-wrap">
+                                            <div class="row g-3">
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">জ্ঞানেই শক্তি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">জ্ঞানেই শক্তি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Upcoming</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                        aria-labelledby="pills-contact-tab" tabindex="0">
+                                        <div class="competition-items-wrap">
+                                            <div class="row g-3">
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">জ্ঞানেই শক্তি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">জ্ঞানেই শক্তি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Past</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-ongoing" role="tabpanel"
+                                        aria-labelledby="pills-ongoing-tab" tabindex="0">
+                                        <div class="competition-items-wrap">
+                                            <div class="row g-3">
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">জ্ঞানেই শক্তি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">জ্ঞানেই শক্তি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                                    <a class="competition-card" href="competition.php">
+                                                        <div class="competition-imgs">
+                                                            <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
+                                                            <div class="overlay"></div>
+                                                            <span class="competition-badge">Ongoing</span>
+                                                        </div>
+                                                        <div class="competition-info">
+                                                            <h3 class="dynamic-font">Future Champions</h3>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
@@ -108,4 +512,5 @@
     <?php echo $sJSBootStrap; ?>
     <?php echo $sJSEMM; ?>
 </body>
+
 </html>

@@ -1,6 +1,7 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,6 +42,7 @@
     echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
+
 <body>
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -81,9 +83,9 @@
                 </div>
             </div>
         </section>
-        <section class="divisions-area">
+        <section class="competition-area">
             <div class="container">
-                <div class="divisions-wrap">
+                <div class="competition-wrap">
                     <div class="arrow-img-one">
                         <img src="media/imgAll/bg/Home-Page/arrow-1.svg" alt="">
                     </div>
@@ -93,56 +95,108 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-title text-center">
-                                <h2><a href="divisions.php" class="title">Divisions</a></h2>
+                                <h2><a href="competition.php" class="title">Competition</a></h2>
                                 <div class="underline">
                                     <span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="divisions-wrapper">
-                        <div class="row g-4">
+                    <div class="competition-items-wrap">
+                        <div class="row g-3">
                             <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                <a href="divisions.php" class="division-card">
-                                    <div class="division-img">
-                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-1.jpg" alt="Tilawat">
+                                <a class="competition-card" href="competition-details.php">
+                                    <div class="competition-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                         <div class="overlay"></div>
-                                        <div class="division-info">
-                                            <h4>Cultural Shilpigosthi</h4>
-                                        </div>
+                                        <span class="competition-badge">Upcoming</span>
+                                    </div>
+                                    <div class="competition-info">
+                                        <h3 class="dynamic-font">চলো বিশ্ব জয় করি</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                <a href="divisions.php" class="division-card">
-                                    <div class="division-img">
-                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-2.jpg" alt="Islamic Song">
+                                <a class="competition-card" href="competition-details.php">
+                                    <div class="competition-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-2.jpg" alt="Rise Beyond Limits">
                                         <div class="overlay"></div>
-                                        <div class="division-info">
-                                            <h4>Performances</h4>
-                                        </div>
+                                        <span class="competition-badge">Past</span>
+                                    </div>
+                                    <div class="competition-info">
+                                        <h3 class="dynamic-font">Rise Beyond Limits</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                <a href="divisions.php" class="division-card">
-                                    <div class="division-img">
-                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-3.jpg" alt="Islamic Song">
+                                <a class="competition-card" href="competition-details.php">
+                                    <div class="competition-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-3.jpg" alt="স্বপ্ন থেকে সফলতা">
                                         <div class="overlay"></div>
-                                        <div class="division-info">
-                                            <h4>Recitation</h4>
-                                        </div>
+                                        <span class="competition-badge">Ongoing</span>
+                                    </div>
+                                    <div class="competition-info">
+                                        <h3 class="dynamic-font">স্বপ্ন থেকে সফলতা</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                <a href="divisions.php" class="division-card">
-                                    <div class="division-img">
-                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/divisions-4.jpg" alt="Theatre">
+                                <a class="competition-card" href="competition-details.php">
+                                    <div class="competition-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                         <div class="overlay"></div>
-                                        <div class="division-info">
-                                            <h4>Theatre Department</h4>
-                                        </div>
+                                        <span class="competition-badge">Upcoming</span>
+                                    </div>
+                                    <div class="competition-info">
+                                        <h3 class="dynamic-font">Future Champions</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                <a class="competition-card" href="competition-details.php">
+                                    <div class="competition-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-5.jpg" alt="competition-5.jpg">
+                                        <div class="overlay"></div>
+                                        <span class="competition-badge">Past</span>
+                                    </div>
+                                    <div class="competition-info">
+                                        <h3 class="dynamic-font">তরুণদের নতুন যাত্রা</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                <a class="competition-card" href="competition-details.php">
+                                    <div class="competition-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-6.jpg" alt="competition-6.jpg">
+                                        <div class="overlay"></div>
+                                        <span class="competition-badge">Ongoing</span>
+                                    </div>
+                                    <div class="competition-info">
+                                        <h3 class="dynamic-font">Creative Talent Hunt</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                <a class="competition-card" href="competition-details.php">
+                                    <div class="competition-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
+                                        <div class="overlay"></div>
+                                        <span class="competition-badge">Upcoming</span>
+                                    </div>
+                                    <div class="competition-info">
+                                        <h3 class="dynamic-font">জ্ঞানেই শক্তি</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                                <a class="competition-card" href="competition-details.php">
+                                    <div class="competition-imgs">
+                                        <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-8.jpg" alt="competition-8.jpg">
+                                        <div class="overlay"></div>
+                                        <span class="competition-badge">Past</span>
+                                    </div>
+                                    <div class="competition-info">
+                                        <h3 class="dynamic-font">Dream Big Achieve Bigger</h3>
                                     </div>
                                 </a>
                             </div>
@@ -161,7 +215,7 @@
                         <img src="media/imgAll/bg/Home-Page/dot-1.png" alt="">
                     </div>
                     <div class="dot-img-tow">
-                        <img src="media/imgAll/bg/Home-Page/dot-2.png" alt="">
+                        <img src="media/imgAll/bg/Home-Page/dot-3.png" alt="">
                     </div>
                     <div class="row">
                         <div class="col-lg-12">
@@ -535,4 +589,5 @@
     </script>
     <?php echo $sJSEMM; ?>
 </body>
+
 </html>

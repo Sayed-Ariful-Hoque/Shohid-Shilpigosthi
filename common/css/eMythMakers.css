@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.maateen.me/solaiman-lipi/font.css");
 :root {
   --primary-color: #000046;
   --secondary-color: #e00510;
@@ -244,7 +245,12 @@ li {
   font-weight: 500;
   font-size: 16px;
 }
-
+.dynamic-font.bangla-font {
+  font-family: "SolaimanLipi", sans-serif;
+}
+.dynamic-font.english-font {
+  font-family: "Roboto", sans-serif;
+}
 /*=================common  area End====================*/
 /*=================header area Start====================*/
 .header-area {
@@ -391,12 +397,11 @@ li {
 }
 /*=================Hero area End====================*/
 /*=================divisions area start====================*/
-.divisions-area {
+.competition-area {
   padding: 70px 0;
   background: #f5f7fb;
-  position: relative;
 }
-.divisions-wrap {
+.competition-wrap {
   position: relative;
 }
 .arrow-img-one {
@@ -437,46 +442,98 @@ li {
     transform: translateX(-50%) translateY(0);
   }
 }
-.divisions-wrapper > * {
-  position: relative;
-  z-index: 2;
-}
-.division-card {
+.competition-card {
   width: 100%;
+  height: 100%;
   background: var(--white-color);
   display: inline-block;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 15px;
+  border-radius: 8px;
   border: 1px solid #ddd;
   box-sizing: border-box;
   transition: transform 0.4s ease;
   will-change: transform;
 }
-
-.division-card:hover {
-  transform: translateY(-15px);
+.competition-card:hover {
+  transform: translateY(-10px);
 }
-.division-img img {
+.competition-imgs {
+  position: relative;
+}
+.competition-imgs img {
+  position: relative;
   width: 100%;
   aspect-ratio: 1.2;
   overflow: hidden;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 8px;
 }
-.division-info {
-  margin-top: 10px;
+.competition-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--white-color);
+  padding: 7px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px 0 20px;
+  letter-spacing: 0.3px;
+  transition: all 0.4s ease;
 }
-.division-info h4 {
-  text-align: center;
+.competition-card:hover .competition-badge {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+/* .competition-badge {
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	z-index: 2;
+
+	background: rgba(0, 0, 0, 0.45);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+
+	color: #fff;
+
+	padding: 8px 18px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 10px 0 18px;
+
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+	transition: all 0.3s ease;
+}
+
+.competition-badge:hover {
+	background: rgba(0, 0, 0, 0.6);
+	transform: translateY(-2px);
+} */
+.competition-info {
+  margin-top: 15px;
+}
+.competition-info h3 {
+  color: var(--primary-color);
   font-size: 18px;
   font-weight: 600;
-  color: var(--primary-color);
+  line-height: 1.3;
+  text-align: center;
+  transition: all ease 0.4s;
 }
-.division-card:hover .division-info h4 {
+.competition-card:hover .competition-info h3 {
   color: var(--secondary-color);
 }
-/*=================divisions area End====================*/
-/*=================divisions area End====================*/
+/*=================Competition area End====================*/
+/*=================popular presentation area Start====================*/
 .popular-presentation-area {
   padding: 50px 0;
   background: #ceced10f;
@@ -609,7 +666,7 @@ li {
 .video-gallery-items:hover .video-icons i {
   color: var(--white-color);
 }
-/*=================divisions area End====================*/
+/*=================popular presentation area End====================*/
 /*=================photo-gallery-area Start====================*/
 .photo-gallery-Area {
   padding: 50px 0;
@@ -960,27 +1017,29 @@ li {
 .competition-page-area {
   padding: 50px 0;
 }
-.competition-card {
-  border: 1px solid rgba(173, 171, 171, 0.2);
+.copetition-tabs-heding {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  position: relative;
-  will-change: transform;
-  transition:
-    transform 0.4s ease,
-    box-shadow 0.4s ease;
 }
-.competition-card img {
-  width: 100%;
-  aspect-ratio: 0.7;
-  object-fit: cover;
-  object-position: center;
-  display: block;
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: var(--secondary-color);
 }
-.competition-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0.25rem;
+  border: none;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  margin-right: 20px;
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: 600;
 }
 /*=================competition page area End====================*/
 /*=================divisions page area Start====================*/
