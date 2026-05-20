@@ -229,7 +229,7 @@
                     </div>
                     <div class="video-slider">
                         <div class="video-gallery-items">
-                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko" target="_blank">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-4.jpg" alt="video-theme-4.jpg">
                                     <div class="video-icons">
@@ -243,7 +243,7 @@
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko" target="_blank">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-5.jpg" alt="video-theme-5.jpg">
                                     <div class="video-icons">
@@ -257,7 +257,7 @@
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko" target="_blank">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-6.jpg" alt="video-theme-6.jpg">
                                     <div class="video-icons">
@@ -271,7 +271,7 @@
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko" target="_blank">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-7.jpg" alt="video-theme-7.jpg">
                                     <div class="video-icons">
@@ -285,7 +285,7 @@
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko" target="_blank">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-1.jpg" alt="video-theme-1.jpg">
                                     <div class="video-icons">
@@ -299,7 +299,7 @@
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko" target="_blank">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-2.jpg" alt="video-theme-2.jpg">
                                     <div class="video-icons">
@@ -313,7 +313,7 @@
                             </a>
                         </div>
                         <div class="video-gallery-items">
-                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko">
+                            <a href="https://youtu.be/fTkjS8cUQns?si=_EiSWYYvaB8NC-Ko" target="_blank">
                                 <div class="video-gallery-imgs">
                                     <img class="img-fluid" src="media/imgAll/bg/Home-Page/video-theme-3.jpg" alt="video-theme-3.jpg">
                                     <div class="video-icons">

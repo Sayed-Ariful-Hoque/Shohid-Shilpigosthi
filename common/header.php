@@ -17,7 +17,7 @@
                                     <li class="nav-item"><a class="nav-link" href="lyrics.php">Lyrics</a></li>
                                     <li class="nav-item"><a class="nav-link" href="directors.php">Directors</a></li>
                                     <li class="nav-item"><a class="nav-link" href="competition.php">Competition</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="registrations.php">Registrations</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="academy.php">Academy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                                     </li>
                                     <li class="sub-mobile-menu">
                                         <div class="sub-menu-mobile-link">
-                                            <a href="registrations.php">Registrations</a>
+                                            <a href="academy.php">Academy</a>
                                         </div>
                                     </li>
                                 </ul>

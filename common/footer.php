@@ -32,7 +32,8 @@
                     <ul>
                         <li><a href="#">Terms & Conditions</a></li>
                         <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="registration.php">Admission & Registrations</a></li>
+                        <li><a href="registrations.php">Admission & Registrations</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>

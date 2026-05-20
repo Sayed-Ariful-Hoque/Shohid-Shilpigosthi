@@ -90,7 +90,7 @@
                                         <div class="competition-items-wrap">
                                             <div class="row g-3">
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -102,7 +102,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-2.jpg" alt="Rise Beyond Limits">
                                                             <div class="overlay"></div>
@@ -114,7 +114,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-3.jpg" alt="স্বপ্ন থেকে সফলতা">
                                                             <div class="overlay"></div>
@@ -126,7 +126,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -138,7 +138,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-5.jpg" alt="competition-5.jpg">
                                                             <div class="overlay"></div>
@@ -150,7 +150,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-6.jpg" alt="competition-6.jpg">
                                                             <div class="overlay"></div>
@@ -162,7 +162,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
                                                             <div class="overlay"></div>
@@ -174,7 +174,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-8.jpg" alt="competition-8.jpg">
                                                             <div class="overlay"></div>
@@ -193,7 +193,7 @@
                                         <div class="competition-items-wrap">
                                             <div class="row g-3">
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -205,7 +205,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
                                                             <div class="overlay"></div>
@@ -217,7 +217,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -229,7 +229,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -241,7 +241,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
                                                             <div class="overlay"></div>
@@ -253,7 +253,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -265,7 +265,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -277,7 +277,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -296,7 +296,7 @@
                                         <div class="competition-items-wrap">
                                             <div class="row g-3">
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -308,7 +308,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
                                                             <div class="overlay"></div>
@@ -320,7 +320,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -332,7 +332,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -344,7 +344,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
                                                             <div class="overlay"></div>
@@ -356,7 +356,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -368,7 +368,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -380,7 +380,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -399,7 +399,7 @@
                                         <div class="competition-items-wrap">
                                             <div class="row g-3">
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -411,7 +411,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
                                                             <div class="overlay"></div>
@@ -423,7 +423,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -435,7 +435,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -447,7 +447,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
                                                             <div class="overlay"></div>
@@ -459,7 +459,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
@@ -471,7 +471,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
                                                             <div class="overlay"></div>
@@ -483,7 +483,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="col-lg-3 col-sm-6 d-flex align-items-center">
-                                                    <a class="competition-card" href="competition.php">
+                                                    <a class="competition-card" href="competition-details.php">
                                                         <div class="competition-imgs">
                                                             <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
                                                             <div class="overlay"></div>
