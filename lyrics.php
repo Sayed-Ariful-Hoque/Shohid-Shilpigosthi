@@ -1,6 +1,7 @@
 <?php include_once("common/config.php"); ?>
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,6 +40,7 @@
     echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
+
 <body class="others-page">
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -242,6 +244,27 @@
                     </div>
                 </div>
             </div>
+            <div class="pagination-area mt-5">
+                <div class="container">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </section>
     </main>
     <!-- footer-area -->
@@ -250,4 +273,5 @@
     <?php echo $sJSBootStrap; ?>
     <?php echo $sJSEMM; ?>
 </body>
+
 </html>

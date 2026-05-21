@@ -103,8 +103,8 @@
                         </div>
                     </div>
                     <div class="competition-items-wrap">
-                        <div class="row g-3">
-                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                        <div class="row g-3 justify-content-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
                                 <a class="competition-card" href="competition-details.php">
                                     <div class="competition-imgs">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-1.jpg" alt="চলো বিশ্ব জয় করি">
@@ -116,7 +116,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
                                 <a class="competition-card" href="competition-details.php">
                                     <div class="competition-imgs">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-2.jpg" alt="Rise Beyond Limits">
@@ -128,7 +128,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
                                 <a class="competition-card" href="competition-details.php">
                                     <div class="competition-imgs">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-3.jpg" alt="স্বপ্ন থেকে সফলতা">
@@ -140,7 +140,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
                                 <a class="competition-card" href="competition-details.php">
                                     <div class="competition-imgs">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-4.jpg" alt="competition-4.jpg">
@@ -152,7 +152,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
                                 <a class="competition-card" href="competition-details.php">
                                     <div class="competition-imgs">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-5.jpg" alt="competition-5.jpg">
@@ -164,7 +164,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
                                 <a class="competition-card" href="competition-details.php">
                                     <div class="competition-imgs">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-6.jpg" alt="competition-6.jpg">
@@ -176,7 +176,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
                                 <a class="competition-card" href="competition-details.php">
                                     <div class="competition-imgs">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-7.jpg" alt="competition-7.jpg">
@@ -188,7 +188,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-sm-6 d-flex align-items-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 d-flex align-items-center">
                                 <a class="competition-card" href="competition-details.php">
                                     <div class="competition-imgs">
                                         <img class="img-fluid" src="media/imgAll/bg/Home-Page/competition-8.jpg" alt="competition-8.jpg">
@@ -360,7 +360,7 @@
                         </div>
                         <div class="col-lg-3 order-lg-1 order-2">
                             <div class="row g-md-3 g-lg-0">
-                                <div class="col-lg-12 col-md-6 ">
+                                <div class="col-lg-12 col-6 ">
                                     <div class="photo-gallery-List">
                                         <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-2.jpg" data-caption="Where sacrifice meets creativity — Shohid-Shilpigosthi in action.">
                                             <div class="photo-Gallery-Imgs">
@@ -374,7 +374,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-lg-12 col-md-6 ">
+                                <div class="col-lg-12 col-6 ">
                                     <div class="photo-gallery-List">
                                         <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-3.jpg" data-caption="Keeping the spirit of the martyrs alive through cultural expression.">
                                             <div class="photo-Gallery-Imgs">
@@ -392,7 +392,7 @@
                         </div>
                         <div class="col-lg-3 order-lg-3 order-3">
                             <div class="row g-md-3 g-lg-0">
-                                <div class="col-lg-12  col-md-6">
+                                <div class="col-lg-12  col-6">
                                     <div class="photo-gallery-List">
                                         <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-4.jpg" data-caption="Remembering the heroes, inspiring the future through performance and culture.">
                                             <div class="photo-Gallery-Imgs">
@@ -406,7 +406,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-lg-12  col-md-6">
+                                <div class="col-lg-12  col-6">
                                     <div class="photo-gallery-List">
                                         <a data-fancybox="photo-gallery" href="media/imgAll/bg/Home-Page/photo-gallery-5.jpg" data-caption="Art with purpose, voices with meaning — Shohid-Shilpigosthi.">
                                             <div class="photo-Gallery-Imgs">
@@ -452,42 +452,42 @@
                         </div>
                     </div>
                     <div class="row g-4">
-                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                        <div class="col-md-4 col-sm-6 d-flex align-items-center">
                             <div class="activity-card">
                                 <div class="icon"><i class="fas fa-music"></i></div>
                                 <h4>Cultural Events</h4>
                                 <p>We organize cultural programs and events</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                        <div class="col-md-4 col-sm-6 d-flex align-items-center">
                             <div class="activity-card">
                                 <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
                                 <h4>Training Programs</h4>
                                 <p>Simple and structured learning sessions</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                        <div class="col-md-4 col-sm-6 d-flex align-items-center">
                             <div class="activity-card">
                                 <div class="icon"><i class="fas fa-theater-masks"></i></div>
                                 <h4>Performances</h4>
                                 <p>Stage shows and live presentations</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                        <div class="col-md-4 col-sm-6 d-flex align-items-center">
                             <div class="activity-card">
                                 <div class="icon"><i class="fas fa-tv"></i></div>
                                 <h4>TV Programs</h4>
                                 <p>Educational and media content</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                        <div class="col-md-4 col-sm-6 d-flex align-items-center">
                             <div class="activity-card">
                                 <div class="icon"><i class="fas fa-book"></i></div>
                                 <h4>Publications</h4>
                                 <p>Books, articles and publications</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                        <div class="col-md-4 col-sm-6 d-flex align-items-center">
                             <div class="activity-card">
                                 <div class="icon"><i class="fas fa-trophy"></i></div>
                                 <h4>Competitions</h4>

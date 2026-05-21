@@ -252,6 +252,25 @@ li {
 .dynamic-font.english-font {
   font-family: "Roboto", sans-serif;
 }
+.pagination-area .pagination {
+  justify-content: center;
+}
+.pagination-area .page-link {
+  color: var(--white-color);
+  border: 1px solid var(--border-color);
+  background: var(--primary-color);
+  padding: 5px 20px;
+}
+.pagination-area .page-link:hover {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+.pagination-area .page-link:focus {
+  box-shadow: none;
+}
+.pagination-area .page-link:focus-visible {
+  outline: none;
+}
 /*=================common  area End====================*/
 /*=================header area Start====================*/
 .header-area {
@@ -939,7 +958,7 @@ li {
 }
 .lyrics-card:hover {
   color: var(--primary-color);
-  border-color: var(--primary-color);
+  border-color: var(--secondary-color);
 }
 .lyrics-card-imgs {
   width: 100%;
@@ -1043,6 +1062,9 @@ li {
   font-size: 16px;
   font-weight: 600;
 }
+.competition-wrap .nav {
+  gap: 20px 10px !important;
+}
 /*=================competition page area End====================*/
 /*=================competition Details page area Start====================*/
 .competition-details-area {
@@ -1093,7 +1115,7 @@ li {
 }
 .competition-title {
   font-size: 30px;
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 600;
   margin-bottom: 5px;
   color: var(--primary-color);
@@ -1178,18 +1200,20 @@ li {
 }
 .branch-card {
   position: relative;
-  background: linear-gradient(145deg, #ffffff, #f7faff);
+  /* background: linear-gradient(145deg, #ffffff, #f7faff); */
+  /* border: 1px solid rgba(255, 255, 255, 0.4); */
+  background: #d2d2d2;
   border-radius: 28px;
   padding: 30px 26px;
   overflow: hidden;
   height: 100%;
   z-index: 1;
   transition: all 0.4s ease;
-  border: 1px solid rgba(255, 255, 255, 0.4);
   box-shadow:
     0 10px 30px rgba(13, 110, 253, 0.08),
     inset 0 1px 0 rgba(255, 255, 255, 0.8);
 }
+
 .branch-card::before {
   content: "";
   position: absolute;
@@ -1228,6 +1252,7 @@ li {
   transform: scale(1.2);
 }
 .branch-card h3 {
+  color: var(--secondary-color);
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -1329,8 +1354,130 @@ li {
   color: var(--white-color);
 }
 /*=================registration-page area End====================*/
+/*=================payment-page area start====================*/
+/* .payment-section{
+    padding: 100px 0;
+    background: linear-gradient(135deg,#fff5f7,#fff);
+    font-family: sans-serif;
+} */
+.payment-page-area {
+  padding: 50px 0;
+}
+/* .payment-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.08);
+} */
+
+.payment-badge {
+  display: inline-block;
+  background: #ffe5ecc4;
+  color: #e2136e;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.payment-left h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #111;
+  line-height: 1.3;
+}
+.payment-left p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #666;
+  margin-bottom: 35px;
+}
+.payment-methods {
+  background: var(--white-color);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 20px;
+}
+.method-card {
+  width: 300px;
+  margin: 0 auto;
+}
+.payment-method-imgs {
+  margin-bottom: 15px;
+}
+.payment-methods p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #474545;
+  letter-spacing: 2px;
+}
+.payment-methods span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-right: 5px;
+  letter-spacing: normal;
+}
+.payment-right {
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+}
+
+.input-box input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  font-size: 15px;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.input-box input:focus {
+  border-color: #e2136e;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(226, 19, 110, 0.1);
+}
+
+.payment-right button {
+  width: 100%;
+  height: 58px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #e2136e, #ff4f93);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.payment-right button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(226, 19, 110, 0.3);
+}
+
+/*=================payment-page area End====================*/
 /*=================contact-page area start====================*/
-.contact-area{
+.contact-area {
   /* background: #f6f9ff; */
   padding: 50px 0;
   position: relative;
@@ -1454,7 +1601,7 @@ li {
   /* background: #f9fbff; */
 }
 .input-group-custom input:hover,
-.input-group-custom textarea:hover{
+.input-group-custom textarea:hover {
   border-color: var(--secondary-color);
 }
 .input-group-custom input:focus,
@@ -1464,27 +1611,35 @@ li {
 
 /* Button */
 .contact-btn {
-	border: none;
-	background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-	color: #fff;
-	padding: 10px 30px;
-	border-radius: 5px;
-	font-size: 16px;
-	font-weight: 600;
-	transition: 0.35s ease;
-	display: inline-flex;
-	align-items: center;
-	gap: 10px;
-	box-shadow: 0 12px 25px rgba(13, 110, 253, 0.2);
+  border: none;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.35s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 12px 25px rgba(13, 110, 253, 0.2);
 }
 
 .contact-btn:hover {
   transform: translateY(-4px);
-  	background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+  background: linear-gradient(
+    90deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
 }
-.google-map-area{
+.google-map-area {
   padding-top: 50px;
- margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 /*=================contact-page area End====================*/
 /*=================footer area start====================*/
@@ -1865,6 +2020,15 @@ li {
   }
   .lyrics-text-box h2 {
     font-size: 25px;
+  }
+  .payment-heading {
+    text-align: center;
+  }
+  .payment-badge {
+    margin-bottom: 15px;
+  }
+  .payment-left h2 {
+    margin-bottom: 5px;
   }
 }
 /* SM Small Device :550px. */

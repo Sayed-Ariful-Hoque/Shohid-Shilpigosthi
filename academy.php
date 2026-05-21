@@ -60,10 +60,8 @@
         <section class="academy-area">
             <div class="container">
                 <div class="academy-area-wrap">
-                    <div class="row g-4">
-
-                        <!-- Branch 01 -->
-                        <div class="col-lg-3 col-md-6">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="branch-card">
                                 <h3>Mirpur Branch</h3>
                                 <div class="branch-info">
@@ -77,9 +75,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Branch 02 -->
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="branch-card">
                                 <h3>Uttara Branch</h3>
                                 <div class="branch-info">
@@ -93,116 +89,112 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Branch 03 -->
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="branch-card">
                                 <h3>Dhanmondi Branch</h3>
-
                                 <div class="branch-info">
                                     <p><span>Address :</span> Road-27, Dhanmondi, Dhaka</p>
                                     <p><span>Call :</span> <a href="tel:+8801911445566">+880 1911-445566</a></p>
                                     <p><span>Email :</span> <a href="mailto:dhanmondi@gmail.com">dhanmondi@gmail.com</a></p>
                                 </div>
-
                                 <div class="payment-box">
                                     <p><span>Bkash :</span> 01911-445566</p>
                                     <p><span>Nagad :</span> 01677-889900</p>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Branch 04 -->
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="branch-card">
                                 <h3>Chattogram Branch</h3>
-
                                 <div class="branch-info">
                                     <p><span>Address :</span> GEC Circle, Chattogram</p>
                                     <p><span>Call :</span> <a href="tel:+8801612334455">+880 1612-334455</a></p>
                                     <p><span>Email :</span> <a href="mailto:ctg@gmail.com">ctg@gmail.com</a></p>
                                 </div>
-
                                 <div class="payment-box">
                                     <p><span>Bkash :</span> 01612-334455</p>
                                     <p><span>Nagad :</span> 01588-778899</p>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Branch 05 -->
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="branch-card">
                                 <h3>Sylhet Branch</h3>
-
                                 <div class="branch-info">
                                     <p><span>Address :</span> Zindabazar, Sylhet</p>
                                     <p><span>Call :</span> <a href="tel:+8801711002200">+880 1711-002200</a></p>
                                     <p><span>Email :</span> <a href="mailto:sylhet@gmail.com">sylhet@gmail.com</a></p>
                                 </div>
-
                                 <div class="payment-box">
                                     <p><span>Bkash :</span> 01711-002200</p>
                                     <p><span>Nagad :</span> 01333-224466</p>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Branch 06 -->
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="branch-card">
                                 <h3>Khulna Branch</h3>
-
                                 <div class="branch-info">
                                     <p><span>Address :</span> Shib Bari More, Khulna</p>
                                     <p><span>Call :</span> <a href="tel:+8801811778899">+880 1811-778899</a></p>
                                     <p><span>Email :</span> <a href="mailto:khulna@gmail.com">khulna@gmail.com</a></p>
                                 </div>
-
                                 <div class="payment-box">
                                     <p><span>Bkash :</span> 01811-778899</p>
                                     <p><span>Nagad :</span> 01755-991122</p>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Branch 07 -->
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="branch-card">
                                 <h3>Rajshahi Branch</h3>
-
                                 <div class="branch-info">
                                     <p><span>Address :</span> Shaheb Bazar, Rajshahi</p>
                                     <p><span>Call :</span> <a href="tel:+8801999887766">+880 1999-887766</a></p>
                                     <p><span>Email :</span> <a href="mailto:rajshahi@gmail.com">rajshahi@gmail.com</a></p>
                                 </div>
-
                                 <div class="payment-box">
                                     <p><span>Bkash :</span> 01999-887766</p>
                                     <p><span>Nagad :</span> 01444-223355</p>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Branch 08 -->
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="branch-card">
                                 <h3>Barishal Branch</h3>
-
                                 <div class="branch-info">
                                     <p><span>Address :</span> Sadar Road, Barishal</p>
                                     <p><span>Call :</span> <a href="tel:+8801766554433">+880 1766-554433</a></p>
                                     <p><span>Email :</span> <a href="mailto:barishal@gmail.com">barishal@gmail.com</a></p>
                                 </div>
-
                                 <div class="payment-box">
                                     <p><span>Bkash :</span> 01766-554433</p>
                                     <p><span>Nagad :</span> 01555-667788</p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
+                </div>
+            </div>
+            <div class="pagination-area mt-5">
+                <div class="container">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </section>

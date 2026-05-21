@@ -23,6 +23,7 @@
                         <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="lyrics.php">Lyrics</a></li>
                         <li><a href="directors.php">Directors</a></li>
+                        <li><a href="payment.php">Payment</a></li>
                     </ul>
                 </div>
             </div>

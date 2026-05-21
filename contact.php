@@ -40,7 +40,6 @@
     echo $sCSSFancybox;
     echo $sCSSEMM; ?>
 </head>
-
 <body class="others-page">
     <?php echo $sFbRoot; ?>
     <?php echo $sGTagManagerBody; ?>
@@ -152,7 +151,7 @@
                                             <textarea rows="4" placeholder="Write your message"></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 text-center">
                                         <button type="submit" class="contact-btn">
                                             Send Message
                                             <i class="fas fa-paper-plane"></i>
