@@ -2030,6 +2030,19 @@ li {
   .payment-left h2 {
     margin-bottom: 5px;
   }
+  .competition-meta {
+    flex-direction: column;
+  }
+  .competition-category {
+	padding: 15px 16px;
+}
+  .competition-title {
+    font-size: 23px;
+  }
+  .competition-info-box {
+    grid-template-columns: unset;
+    gap: 10px;
+  }
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
