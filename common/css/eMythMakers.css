@@ -862,6 +862,61 @@ li {
 }
 
 /*=================activities area End====================*/
+/*=================about us page area Start====================*/
+/* ====================================
+        Premium About Section Design
+==================================== */
+
+.about-page-area {
+  padding: 50px 0;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.about-left-wrap {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+.image-one {
+  text-align: center;
+}
+.circle-shape {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgba(37, 99, 235, 0.08);
+  border-radius: 50%;
+  top: -31px;
+  right: -30px;
+  z-index: -1;
+}
+/* Content */
+.about-tag {
+  margin-bottom: 25px;
+}
+.about-tag h5 {
+  color: var(--secondary-color);
+  font-size: 16px;
+}
+.about-tag i {
+  color: var(--secondary-color);
+}
+.premium-about-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+.premium-about-content p {
+  color: #64748b;
+  font-size: 17px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+/*=================about us page area End====================*/
 /*=================directors page area Start====================*/
 .directors-page-area {
   padding: 50px 0;
@@ -1973,6 +2028,9 @@ li {
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+  .middel-nave .nav-link {
+    padding: 30px 16px;
+  }
 }
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2034,14 +2092,18 @@ li {
     flex-direction: column;
   }
   .competition-category {
-	padding: 15px 16px;
-}
+    padding: 15px 16px;
+  }
   .competition-title {
     font-size: 23px;
   }
   .competition-info-box {
     grid-template-columns: unset;
     gap: 10px;
+  }
+  .premium-about-content h2 {
+    font-size: 25px;
+    line-height: 1.3;
   }
 }
 /* SM Small Device :550px. */

@@ -13,6 +13,7 @@
                             <div class="header-location d-flex align-items-center">
                                 <ul class="d-flex align-items-center">
                                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                                     <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
                                     <li class="nav-item"><a class="nav-link" href="lyrics.php">Lyrics</a></li>
                                     <li class="nav-item"><a class="nav-link" href="directors.php">Directors</a></li>
@@ -56,6 +57,11 @@
                                     <li class="sub-mobile-menu">
                                         <div class="sub-menu-mobile-link">
                                             <a href="<?php echo $sSiteURL; ?>">Home</a>
+                                        </div>
+                                    </li>
+                                    <li class="sub-mobile-menu">
+                                        <div class="sub-menu-mobile-link">
+                                            <a href="about.php">About Us</a>
                                         </div>
                                     </li>
                                     <li class="sub-mobile-menu">
