@@ -202,10 +202,10 @@
                             </div>
                         </div>
                     </div>
+                    <div class="backgroun-imgs-icons-three">
+                        <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-3.png" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="backgroun-imgs-icons-three">
-                <img src="media/imgAll/bg/Home-Page/backgroun-imgs-icons-3.png" alt="">
             </div>
         </section>
         <section class="popular-presentation-area">
